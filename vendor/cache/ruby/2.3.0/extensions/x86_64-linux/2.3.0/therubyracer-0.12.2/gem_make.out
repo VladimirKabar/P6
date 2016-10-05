@@ -1,0 +1,47 @@
+current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+/home/vladimir/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161005-32471-v9va0p.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/extensions/x86_64-linux/2.3.0/therubyracer-0.12.2/mkmf.log
+
+current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR="
+compiling constants.cc
+compiling handles.cc
+compiling message.cc
+compiling stack.cc
+compiling v8.cc
+compiling init.cc
+compiling locker.cc
+compiling context.cc
+compiling external.cc
+compiling string.cc
+compiling value.cc
+compiling array.cc
+compiling invocation.cc
+compiling function.cc
+compiling rr.cc
+compiling heap.cc
+compiling backref.cc
+compiling accessor.cc
+compiling object.cc
+compiling exception.cc
+compiling trycatch.cc
+compiling template.cc
+compiling date.cc
+compiling signature.cc
+compiling gc.cc
+compiling script.cc
+compiling primitive.cc
+compiling constraints.cc
+linking shared-object v8/init.so
+
+current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -m 0755 init.so ./.gem.20161005-32471-1jd8jtw/v8
