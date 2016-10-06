@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def kontakt
   end
+  def test
+
+  end
 end
