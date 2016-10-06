@@ -1,0 +1,75 @@
+.spa-widget-owl-2-home-1{
+	.entry-item{
+		text-align: center;
+		background-color: $cl-002;
+		padding-bottom: 0px;
+		padding-top: 70px;
+		&.style-01{
+			padding-bottom: 350px;
+			background-size: cover;
+			.entry-content p{
+				color: $cl-001;
+				span{
+					@extend %main_color;
+				}
+			}
+		}
+	}
+	.owl-carousel .owl-item img{
+		width: auto;
+		display: inline-block;
+	}
+	.owl-theme .owl-controls{
+		margin-top: 0px;
+	}
+	.entry-title{
+		font-size: 32px;
+		line-height: 32px;
+		margin-bottom: 10px;
+	}
+	.entry-content{
+		>img{
+			margin-bottom: 45px;
+		}
+		p{
+			font-size: 20px;
+			line-height: 30px;
+			color: $cl-024;
+			font-style: italic;
+		}
+	}
+	.owl-theme .owl-controls{
+		.owl-pagination{
+			position: absolute;
+			height: auto;
+			width: 15px;
+			top: 50%;
+			right: 75px;
+			@extend %centerY;
+		}
+		.owl-page{
+			height: 15px;
+			width: 15px;
+			background-color: $cl-025;
+			border-radius: 50%;
+			margin: 2.5px 0px;
+			display: block;
+			span{
+				color: $cl-001;
+				font-size: 12px;
+				line-height: 15px;
+				display: none;
+				padding: 0px;
+			}
+			&.active{
+				background: none;
+				span{
+					display: block;
+					background-color: inherit;
+					padding: 0px;
+					margin: 0px;
+				}
+			}
+		}
+	}
+}

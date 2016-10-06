@@ -1,0 +1,47 @@
+.spa-widget-blog-post-home-2{
+	text-align: center;
+	.widget-content{
+		text-align: left;
+		.spa-masonry{
+			margin: 0px -15px;
+			margin-top: -30px;
+		}
+	}
+	.entry-item{
+		margin-top: 30px;
+	}
+	.entry-content{
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		left: 0px;
+		padding: 0px 20px 15px 20px;
+	}
+	.entry-title{
+		font-size: 22px;
+		line-height: 29px;
+		font-weight: bold;
+		margin-bottom: 0px;
+		a{
+			color: $cl-001;
+			&:hover{
+				@extend %main_color_2;
+			}
+		}
+	}
+	.spa-meta-data{
+		display: inherit;
+		color: $cl-010;
+	}
+	.entry-thumb > .spa-icon-play {
+	    position: absolute;
+	    width: auto;
+	    top: 50%;
+	    left: 50%;
+	    display: inline-block;
+	    @extend %centerXY;
+	}
+}
+.spa-widget-accordion-home-2{
+	text-align: center;
+}

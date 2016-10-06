@@ -1,0 +1,120 @@
+.spa-widget-owl-home-2{
+	.spa-slick-1 .entry-item{
+		-ms-transform: scale(0.6); /* IE 9 */
+    	-webkit-transform: scale(0.6); /* Safari */
+		transform:scale(0.6);
+	}
+	.entry-thumb{
+		margin-bottom: 45px;
+		position: relative;
+	}
+	.spa-slick-1 .slick-center{
+		-ms-transform: scale(1); /* IE 9 */
+    	-webkit-transform: scale(1); /* Safari */
+		transform:scale(1);
+	}
+	.entry-content{
+		text-align: center;
+	}
+	.price{
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 16px;
+		color: $color-primary;
+		display: inline-block;
+		margin-bottom: 7px;
+		span{
+			font-weight: bold;
+			@extend %main_color;
+		}
+	}
+	.entry-title{
+		font-size: 25px;
+		line-height: 28px;
+		margin-bottom: 13px;
+	}
+	.spa-line-arow{
+		margin-bottom: 25px;
+	}
+	.slick-arrow.slick-prev{
+		text-align: center;
+		padding: 0px;
+		width: 22px;
+		height: 30px;
+		margin: 0px 0.5px;
+		background-color: $cl-010;
+		left: -100px;
+		@extend %transition;
+		&:before{
+			content: "\f104";
+			@extend %fa;
+			color: $cl-001;
+			text-indent: 0px;
+			font-size: 18px;
+			line-height: 30px;
+			position: relative;
+			left: -4px;
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			height: 0px;
+			width: 0px;
+			border-bottom-width: 15px;
+			border-bottom-style: solid;
+			border-bottom-color: transparent;
+			border-top-width: 15px;
+			border-top-style: solid;
+			border-top-color: transparent;
+			border-right-width: 10px;
+			border-right-style: solid;
+			border-right-color: $cl-010;
+			top: 0px;
+			right: 100%;
+			@extend %transition;
+		}	
+	}
+	.slick-arrow.slick-next{
+		text-align: center;
+		padding: 0px;
+		width: 22px;
+		height: 30px;
+		margin: 0px 0.5px;
+		background-color: $cl-010;
+		right: -100px;
+		@extend %transition;
+		&:before{
+			content: "\f105";
+			@extend %fa;
+			color: $cl-001;
+			text-indent: 0px;
+			font-size: 18px;
+			line-height: 30px;
+			position: relative;
+			right: -4px;
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			height: 0px;
+			width: 0px;
+			border-bottom-width: 15px;
+			border-bottom-style: solid;
+			border-bottom-color: transparent;
+			border-top-width: 15px;
+			border-top-style: solid;
+			border-top-color: transparent;
+			border-left-width: 10px;
+			border-left-style: solid;
+			border-left-color: $cl-010;
+			top: 0px;
+			left: 100%;
+			@extend %transition;
+		}	
+	}
+}
+.slick-slide{
+	&:focus{
+		outline: 0px;
+	}
+}
