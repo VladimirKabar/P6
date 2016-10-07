@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 110, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page.active {
+  background: #ffc800;
+}
+
+/* line 114, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page.active {
+  border-color: #ffc800;
+}
+
+/* line 203, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-single-blog .spa-wrap-text-diffrent:before, .spa-single-blog .spa-wrap-tag:before, #review_form #respond #commentform:before, .spa-single-blog .spa-wrap-text-diffrent:after, .spa-single-blog .spa-wrap-tag:after, #review_form #respond #commentform:after {
+  content: "";
+  display: table;
+}
+/* line 208, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-single-blog .spa-wrap-text-diffrent:after, .spa-single-blog .spa-wrap-tag:after, #review_form #respond #commentform:after {
+  clear: both;
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 2, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0px 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+}
+/* line 9, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog h1 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.4px;
+  margin-bottom: 23px;
+}
+/* line 15, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-meta-data-single {
+  margin-bottom: 35px;
+}
+/* line 18, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .entry-thumb {
+  margin-bottom: 53px;
+}
+/* line 21, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .entry-thumb.spa-vertical-left {
+  float: left;
+  margin-right: 35px;
+  width: auto;
+}
+/* line 27, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+/* line 33, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog h4 {
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin-bottom: 30px;
+}
+/* line 40, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-text-diffrent {
+  margin-top: 40px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 40px;
+  border-top: 1px solid #dddddd;
+}
+/* line 47, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-text-diffrent .spa-col-left p {
+  text-align: right;
+}
+/* line 50, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-text-diffrent .spa-col-right p {
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  color: #333333;
+  font-style: italic;
+}
+/* line 58, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-blockquote {
+  margin-bottom: 80px;
+}
+/* line 61, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-tag {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 30px;
+}
+/* line 66, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-tag .spa-tag-post {
+  float: left;
+}
+/* line 69, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-tag .spa-backtotop {
+  float: right;
+}
+/* line 73, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog .spa-wrap-share-post {
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 30px;
+}
+
+/* line 80, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post {
+  margin-bottom: 60px !important;
+}
+/* line 83, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-carousel {
+  margin-top: -30px;
+  width: auto;
+}
+/* line 86, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-carousel div.item {
+  padding: 0px 15px;
+}
+/* line 90, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls {
+  margin: 0px;
+}
+/* line 92, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-pagination {
+  position: absolute;
+  height: 15px;
+  width: auto;
+  top: -27px;
+  left: 0px;
+  right: 15px;
+  text-align: right;
+}
+@media screen and (max-width: 1920px) {
+  /* line 92, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+  .mdc-entry-post .owl-theme .owl-controls .owl-pagination {
+    bottom: 120px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  /* line 92, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+  .mdc-entry-post .owl-theme .owl-controls .owl-pagination {
+    bottom: 20px;
+  }
+}
+/* line 107, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  margin: 0px 1px;
+  display: inline-block;
+  padding: 0px 5px;
+}
+/* line 116, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page span {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 13px !important;
+  display: none;
+  margin: 0px;
+  height: auto;
+  width: auto;
+  background-color: inherit;
+}
+/* line 126, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page.active {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  top: -3px;
+}
+/* line 133, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.mdc-entry-post .owl-theme .owl-controls .owl-page.active span {
+  display: block;
+  line-height: 19px;
+}
+
+/* line 142, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 146, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol li {
+  list-style-type: none;
+}
+
+/* line 150, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li img.avatar {
+  width: auto;
+  border: 0px;
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+  border-radius: 1px;
+  margin-right: 25px;
+  float: left;
+}
+
+/* line 160, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li .comment-text {
+  margin: 0px;
+  width: auto;
+  padding: 0px;
+  overflow: hidden;
+  border: 0px;
+  border-radius: 0px;
+}
+
+/* line 168, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.star-rating {
+  font-size: 12px;
+}
+
+/* line 171, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li .comment-text p.meta {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+/* line 174, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li .comment-text p.meta strong {
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+/* line 181, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li .comment-text p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+
+/* line 186, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+/* line 190, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li:last-of-type {
+  margin-bottom: 0px;
+}
+/* line 193, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments ol.commentlist li ol {
+  margin-right: 50px;
+}
+
+/* line 197, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#comments {
+  margin-bottom: 60px;
+}
+
+/* line 201, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond #commentform {
+  margin: 0px -15px;
+}
+/* line 205, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p {
+  width: 50%;
+  padding: 0px 15px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 210, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p label {
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+/* line 215, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p input {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 23px;
+  border: 0px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #999999;
+  padding: 14px 30px;
+}
+/* line 225, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p.comment-form-comment {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 228, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p.comment-form-comment textarea {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 23px;
+  border: 0px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #999999;
+  padding: 32px 30px;
+  min-height: 300px;
+}
+/* line 238, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p.comment-form-comment textarea:focus {
+  border: 0px;
+  outline: 0px;
+}
+/* line 244, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p.form-submit {
+  width: auto;
+  margin-bottom: 0px;
+}
+/* line 247, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+#review_form #respond p.form-submit .submit {
+  background: #2c2c2b;
+  color: #ffffff;
+  box-shadow: 0px 0px 0px;
+  text-shadow: 0px 0px 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* line 263, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+.spa-single-blog.style-01 {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: left;
+  padding-top: 70px;
+}
+@media screen and (max-width: 979px) {
+  /* line 263, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-single.scss */
+  .spa-single-blog.style-01 {
+    padding-top: 40px;
+  }
+}

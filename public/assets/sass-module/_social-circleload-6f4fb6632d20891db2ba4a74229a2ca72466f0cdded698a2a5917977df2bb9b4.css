@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 253, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-social-circleload .chart-circle i {
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_social-circleload.scss */
+.spa-widget-social-circleload .chart-circle {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 16px;
+}
+/* line 8, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_social-circleload.scss */
+.spa-widget-social-circleload .chart-circle i {
+  font-size: 29px;
+  color: #333333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+/* line 17, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_social-circleload.scss */
+.spa-widget-social-circleload .entry-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+/* line 25, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_social-circleload.scss */
+.spa-widget-social-circleload span {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  overflow: hidden;
+}

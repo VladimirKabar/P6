@@ -1,5 +1,5 @@
 current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
-/home/vladimir/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161005-32471-v9va0p.rb extconf.rb
+/home/vladimir/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20161007-13107-rkftoz.rb extconf.rb
 checking for main() in -lpthread... yes
 creating Makefile
 
@@ -44,4 +44,4 @@ linking shared-object v8/init.so
 
 current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
 make "DESTDIR=" install
-/usr/bin/install -m 0755 init.so ./.gem.20161005-32471-1jd8jtw/v8
+/usr/bin/install -c -m 0755 init.so ./.gem.20161007-13107-1g69wf5/v8

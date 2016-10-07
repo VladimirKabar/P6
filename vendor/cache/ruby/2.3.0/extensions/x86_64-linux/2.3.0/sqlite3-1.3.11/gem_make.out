@@ -1,5 +1,5 @@
 current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3
-/home/vladimir/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161005-32471-12gk871.rb extconf.rb
+/home/vladimir/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20161007-13107-137zy3v.rb extconf.rb
 checking for sqlite3.h... yes
 checking for sqlite3_libversion_number() in -lsqlite3... yes
 checking for rb_proc_arity()... yes
@@ -33,4 +33,4 @@ linking shared-object sqlite3/sqlite3_native.so
 
 current directory: /home/vladimir/RubymineProjects/P6/vendor/cache/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3
 make "DESTDIR=" install
-/usr/bin/install -m 0755 sqlite3_native.so ./.gem.20161005-32471-p7zfzk/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20161007-13107-xxzz4g/sqlite3

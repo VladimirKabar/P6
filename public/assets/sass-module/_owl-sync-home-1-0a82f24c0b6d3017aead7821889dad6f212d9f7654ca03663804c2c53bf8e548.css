@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 .owl-carousel .owl-item img {
+  width: auto;
+}
+/* line 6, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 {
+  margin-bottom: 35px;
+}
+/* line 8, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .owl-controls {
+  display: none;
+}
+/* line 11, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-item {
+  text-align: center;
+}
+/* line 13, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-item i {
+  font-size: 69px;
+  color: #f5f5f5;
+  line-height: 65px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+/* line 20, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-item p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #757575;
+}
+/* line 24, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-item p span {
+  color: #333333;
+  font-weight: 500;
+}
+/* line 30, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-title {
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+/* line 37, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-title span {
+  font-size: 14px;
+  line-height: 25px;
+  color: #909090;
+  text-transform: capitalize;
+}
+/* line 43, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-title:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -7px;
+  height: 0px;
+  width: 0px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #eeeeee;
+  z-index: 3;
+}
+/* line 56, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync1 .entry-title:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  margin-left: -6px;
+  height: 0px;
+  width: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid #ffffff;
+  z-index: 4;
+}
+/* line 72, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 .owl-sync-widget > .row > div[class^=col] > .owl-carousel {
+  width: 180px;
+  margin: auto;
+}
+/* line 75, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 .owl-sync-widget > .row > div[class^=col] > .owl-carousel img {
+  width: 100%;
+  padding: 0px 5px;
+}
+/* line 82, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync2 .owl-controls {
+  margin-top: 55px;
+}
+/* line 85, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync2 .item {
+  position: relative;
+}
+/* line 87, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync2 .item:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+}
+/* line 99, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-sync-home-1.scss */
+.spa-widget-sync-owl-home-1 #sync2 .owl-item.synced .item:before {
+  height: 0px;
+  width: 0px;
+}

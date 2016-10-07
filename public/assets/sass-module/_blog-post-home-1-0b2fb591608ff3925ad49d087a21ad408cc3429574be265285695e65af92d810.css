@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 213, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-blog-post-home-1 .entry-item {
+  transition: all .3s, visibility 0s;
+  -ms-transition: all .3s, visibility 0s;
+  -webkit-transition: all .3s, visibility 0s;
+  -moz-transition: all .3s, visibility 0s;
+}
+
+/* line 253, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-blog-post-home-1 .entry-thumb > .spa-icon-play {
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-item {
+  background-color: #ffffff;
+}
+/* line 6, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-item:hover {
+  -webkit-box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.75);
+}
+/* line 13, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-thumb .spa-categories, .spa-widget-blog-post-home-1 .entry-thumb .spa-readmore {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+/* line 18, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-thumb > .spa-icon-play {
+  position: absolute;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+}
+/* line 25, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-thumb > .spa-icon-play > img {
+  width: auto;
+}
+/* line 30, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .entry-content {
+  padding: 20px 35px 53px 35px;
+}
+/* line 33, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .widget-content ul {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -30px;
+}
+/* line 37, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_blog-post-home-1.scss */
+.spa-widget-blog-post-home-1 .widget-content ul li {
+  margin-top: 30px;
+}

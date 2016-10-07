@@ -1,0 +1,1006 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 106, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-header.style-01 .header-top .spa-location i, .spa-header.style-01 .header-top .spa-call i, .spa-header.style-01 .header-top .spa-wishlist i, .spa-header.style-01 .header-top .spa-login i, .spa-header.style-03 .spa-menu-top > ul > li > a:hover, .spa-search-and-mega i:hover, .spa-wrap-search-form > i:hover, .spa-wrap-menu-responsive > i, .spa-menu-responsive a:hover, .spa-wrap-social h4, .spa-socail.style-01 li a:hover, .spa-logo span {
+  color: #ffc800;
+}
+
+/* line 110, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-menu-top ul li ul a:before, .spa-menu-responsive a:before {
+  background: #ffc800;
+}
+
+/* line 203, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-header.style-01 .header-top:before, .spa-header.style-02 .spa-menu-top ul:before, .spa-search-and-mega:before, .spa-header.style-01 .header-top:after, .spa-header.style-02 .spa-menu-top ul:after, .spa-search-and-mega:after {
+  content: "";
+  display: table;
+}
+/* line 208, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-header.style-01 .header-top:after, .spa-header.style-02 .spa-menu-top ul:after, .spa-search-and-mega:after {
+  clear: both;
+}
+
+/* line 213, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-menu-top ul li ul a:before, .spa-menu-responsive a:before {
+  transition: all .3s, visibility 0s;
+  -ms-transition: all .3s, visibility 0s;
+  -webkit-transition: all .3s, visibility 0s;
+  -moz-transition: all .3s, visibility 0s;
+}
+
+/* line 260, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-menu-top ul li ul, .spa-menu-top ul li ul a:before, .spa-wrap-menu-responsive .spa-wrap {
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top {
+  background-color: #333333;
+}
+/* line 5, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .row > div[class^=col] > div {
+  display: inline-block;
+  padding: 13px 30px;
+}
+/* line 10, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .row .custom-col-left {
+  width: 72.5%;
+  padding-right: 0px;
+}
+/* line 14, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .row .custom-col-right {
+  width: 27.5%;
+  padding-left: 0px;
+}
+/* line 20, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-location, .spa-header.style-01 .header-top .spa-call, .spa-header.style-01 .header-top .spa-wishlist, .spa-header.style-01 .header-top .spa-login {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  float: left;
+}
+/* line 23, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-location a, .spa-header.style-01 .header-top .spa-call a, .spa-header.style-01 .header-top .spa-wishlist a, .spa-header.style-01 .header-top .spa-login a {
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #727272;
+}
+/* line 28, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-location a:hover, .spa-header.style-01 .header-top .spa-call a:hover, .spa-header.style-01 .header-top .spa-wishlist a:hover, .spa-header.style-01 .header-top .spa-login a:hover {
+  color: #ffffff;
+}
+/* line 32, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-location i, .spa-header.style-01 .header-top .spa-call i, .spa-header.style-01 .header-top .spa-wishlist i, .spa-header.style-01 .header-top .spa-login i {
+  font-size: 15px;
+  margin-right: 7px;
+}
+/* line 38, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-search {
+  float: right;
+  display: block !important;
+  width: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 44, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-search form {
+  position: relative;
+}
+/* line 47, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-search input {
+  border: 0px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #727272;
+  background-color: inherit;
+  text-transform: capitalize;
+  width: 100%;
+  padding-right: 25px;
+  background: none;
+}
+/* line 58, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-search button {
+  background-color: inherit;
+  background: none;
+  border: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+/* line 65, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-top .spa-search button i {
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+  top: -2px;
+  color: #ffffff;
+}
+/* line 76, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-bottom .spa-algr {
+  text-align: right;
+}
+/* line 79, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-bottom img {
+  padding-top: 25px;
+}
+/* line 82, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-bottom .spa-menu-top {
+  position: relative;
+  top: -13px;
+  margin-right: 25px;
+}
+/* line 88, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .spa-menu-top {
+  display: inline-block;
+}
+/* line 90, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .spa-menu-top > ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 93, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .spa-menu-top > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+}
+/* line 97, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .spa-menu-top > ul > li > a {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 13px 12px;
+  display: block;
+}
+@media screen and (max-width: 1023px) {
+  /* line 109, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-top {
+    display: none;
+  }
+  /* line 112, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .spa-menu-top {
+    display: none;
+  }
+  /* line 115, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom {
+    background-color: #f8f8f8;
+  }
+}
+@media screen and (max-width: 639px) {
+  /* line 122, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .row > div {
+    width: auto;
+  }
+  /* line 125, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .row .spa-algr {
+    float: right;
+  }
+  /* line 129, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .spa-search-and-mega i {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 136, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom img {
+    width: 110px;
+    padding-top: 32px;
+  }
+  /* line 140, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .spa-search-and-mega i {
+    width: 35px;
+  }
+  /* line 143, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .spa-algr {
+    padding-left: 0px;
+  }
+  /* line 146, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-01 .header-bottom .spa-search-and-mega i {
+    font-size: 16px;
+  }
+}
+
+/* line 152, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 {
+  padding: 20px 25px;
+  background: #ffffff;
+  position: absolute;
+  top: 60px;
+  border-radius: 5px;
+  z-index: 999;
+  left: 15px;
+  right: 15px;
+}
+/* line 161, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-menu-top {
+  padding-top: 12px;
+}
+/* line 163, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-menu-top ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 168, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-menu-top li {
+  float: left;
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px 12px;
+}
+/* line 174, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-menu-top > ul > li > a {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 0px 6px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+/* line 183, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-socail {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 12px;
+}
+/* line 188, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-socail li {
+  margin: 0px;
+  line-height: 18px;
+}
+/* line 192, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-socail a {
+  font-size: 15px;
+  line-height: 18px;
+}
+/* line 197, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-form-search {
+  display: inline-block;
+  padding-left: 25px;
+}
+/* line 200, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-form-search form {
+  position: relative;
+}
+/* line 203, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-form-search input {
+  width: 110px;
+  height: 40px;
+  border: 0px;
+  border-radius: 4px;
+  background: #f4f4f4;
+  font-size: 13px;
+  color: #bbbbbb;
+  padding-left: 18px;
+  padding-right: 40px;
+}
+/* line 214, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-form-search .spa-submit-form {
+  border: 0px;
+  background: none;
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  color: #909090;
+}
+/* line 223, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .col-custom-left {
+  text-align: right;
+}
+/* line 227, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-02 .spa-search-form-header {
+  border-right: 1px solid #727272;
+}
+@media screen and (max-width: 1190px) {
+  /* line 231, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 > .row > div[class^=col] {
+    width: auto;
+    display: inline-block;
+  }
+  /* line 235, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .col-custom-middle {
+    display: none !important;
+  }
+  /* line 238, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .col-custom-left {
+    float: right;
+  }
+  /* line 240, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .col-custom-left .spa-socail, .spa-header.style-02 .col-custom-left .spa-form-search {
+    display: none;
+  }
+  /* line 244, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .spa-search-and-mega {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+  }
+  /* line 249, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .spa-search-and-mega i::after {
+    display: none;
+  }
+  /* line 252, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .spa-search-and-mega i {
+    top: 0px;
+    border-left: 1px solid #727272;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 152, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 {
+    top: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 152, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 {
+    position: static;
+    padding: 20px 10px;
+  }
+  /* line 264, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .spa-logo img {
+    width: 120px;
+  }
+  /* line 268, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .col-custom-left {
+    padding-left: 0px;
+  }
+  /* line 271, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .col-custom-right {
+    padding-right: 0px;
+  }
+  /* line 274, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-02 .spa-search-and-mega i {
+    width: 50px;
+  }
+}
+
+/* line 280, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top {
+  display: inline-block;
+}
+/* line 282, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 285, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+}
+/* line 290, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li:first-of-type > a {
+  padding-left: 0px;
+}
+/* line 294, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li > a {
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 12px;
+  display: block;
+}
+/* line 305, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li ul li {
+  background-color: #222222;
+}
+/* line 307, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li ul li a {
+  color: #666666;
+}
+/* line 309, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li ul li a:hover {
+  color: #ffffff;
+}
+/* line 314, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li > ul > li:first-of-type {
+  overflow: hidden;
+  border-top: 0px;
+}
+/* line 317, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li > ul > li:first-of-type:before {
+  content: "";
+  height: 10px;
+  width: 50%;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: skewX(40deg);
+  -moz-transform: skewX(40deg);
+  -webkit-transform: skewX(40deg);
+  -o-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+}
+/* line 332, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li > ul > li:first-of-type:after {
+  content: "";
+  height: 10px;
+  width: 50%;
+  position: absolute;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  top: 0px;
+  right: 0px;
+  left: auto;
+  transform: skewX(-40deg);
+  -moz-transform: skewX(-40deg);
+  -webkit-transform: skewX(-40deg);
+  -o-transform: skewX(-40deg);
+  -ms-transform: skewX(-40deg);
+}
+/* line 352, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .mdc-mega-menu.sf-mega {
+  right: auto;
+  left: 15px;
+}
+/* line 356, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .header-top {
+  background-color: #333333;
+  padding: 10px 0px;
+  border-bottom: 1px solid #727272;
+}
+/* line 361, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-algr {
+  text-align: right;
+}
+/* line 364, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-menu-top > ul > li > a {
+  color: #ffffff;
+}
+/* line 367, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-login {
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  margin-right: 25px;
+}
+/* line 372, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-login a {
+  font-size: 13px;
+  line-height: 22px;
+  color: #727272;
+}
+/* line 376, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-login a:hover {
+  color: #bababa;
+}
+/* line 381, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .header-bottom {
+  background-color: #222222;
+  padding: 35px 0px;
+}
+/* line 385, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .header-bottom .row > div {
+  width: auto;
+}
+/* line 388, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .header-bottom .row .spa-algr {
+  float: right;
+}
+/* line 393, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-03 .spa-cart {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  /* line 397, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-top {
+    display: none;
+  }
+  /* line 400, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom {
+    background-color: #222222;
+    padding: 0px;
+  }
+  /* line 403, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .spa-logo {
+    padding-top: 28px;
+  }
+  /* line 407, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .row > div {
+    width: auto;
+  }
+  /* line 410, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .row .spa-algr {
+    float: right;
+  }
+  /* line 415, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-icon-descript {
+    display: none;
+  }
+  /* line 418, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-cart {
+    display: inline-block;
+  }
+  /* line 421, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-search-and-mega i::after {
+    background-color: #333333;
+  }
+}
+@media screen and (max-width: 639px) {
+  /* line 426, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-search-and-mega i {
+    width: 50px;
+  }
+  /* line 434, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* line 437, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .spa-logo span {
+    display: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 444, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom img {
+    width: 110px;
+    padding-top: 9px;
+  }
+  /* line 448, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .spa-search-and-mega i {
+    width: 30px;
+  }
+  /* line 451, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .spa-algr {
+    padding-left: 0px;
+  }
+  /* line 454, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-header.style-03 .header-bottom .spa-search-and-mega i {
+    font-size: 16px;
+  }
+}
+
+/* line 461, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li {
+  position: relative;
+}
+/* line 464, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul {
+  position: absolute;
+  z-index: 9999;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  left: 35px;
+  display: none;
+}
+/* line 473, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li {
+  list-style-type: none;
+  position: relative;
+  min-width: 320px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/* line 480, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li:last-of-type a {
+  border-bottom: 0px;
+}
+/* line 484, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li:first-of-type {
+  border-top: 1px solid #e4e4e4;
+}
+/* line 486, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li:first-of-type:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -7px;
+  height: 0px;
+  width: 0px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #eeeeee;
+  z-index: 3;
+}
+/* line 499, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li:first-of-type:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  margin-left: -6px;
+  height: 0px;
+  width: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid #ffffff;
+  z-index: 4;
+}
+/* line 513, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li ul {
+  position: absolute;
+  left: 151%;
+  display: none;
+}
+/* line 518, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul li ul li:first-of-type:before, .spa-menu-top ul li ul li ul li:first-of-type:after {
+  display: none;
+}
+/* line 524, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul a {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 46px;
+  font-weight: bold;
+  border-bottom: 1px solid #e4e4e4;
+  display: block;
+  padding: 0px 20px;
+  position: relative;
+}
+/* line 533, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul a:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  bottom: -1px;
+  left: 50%;
+}
+/* line 545, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li ul a:hover:before {
+  width: 44px;
+}
+
+/* line 552, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-search-and-mega {
+  display: none;
+}
+/* line 555, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-search-and-mega i {
+  font-size: 20px;
+  line-height: 20px;
+  color: #727272;
+  width: 75px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: -10px;
+}
+/* line 565, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-search-and-mega i:after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  left: 0px;
+  top: -90px;
+  width: 1px;
+  background-color: #dddddd;
+}
+/* line 574, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-search-and-mega i:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1023px) {
+  /* line 552, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .spa-search-and-mega {
+    display: inline-block;
+  }
+}
+
+/* line 583, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999999;
+  display: none;
+}
+/* line 592, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form > i {
+  font-size: 25px;
+  position: fixed;
+  top: 50px;
+  right: 30px;
+}
+/* line 597, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form > i:hover {
+  cursor: pointer;
+}
+/* line 602, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form form {
+  position: fixed;
+  top: 80px;
+  width: 80%;
+  left: 10%;
+  transition: all 0.5s, visibility 0s;
+  -ms-transition: all 0.5s, visibility 0s;
+  -webkit-transition: all 0.5s, visibility 0s;
+  -moz-transition: all 0.5s, visibility 0s;
+}
+/* line 608, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form form input {
+  font-size: 30px;
+  text-transform: capitalize;
+  padding: 0px 30px;
+  padding-right: 60px;
+  width: 100%;
+  background: none;
+  border: 0px;
+  border-bottom: 2px solid #333333;
+}
+/* line 618, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form form button {
+  background: none;
+  border: 0px;
+  position: relative;
+  top: -40px;
+  float: right;
+  right: 23px;
+}
+/* line 625, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-search-form form button i {
+  font-size: 30px;
+}
+
+/* line 631, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-menu-responsive {
+  height: 0px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.97);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999999;
+  display: block;
+  overflow: hidden;
+  transition: 3s;
+  -ms-transition: 3s;
+  -webkit-transition: 3s;
+}
+/* line 644, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-menu-responsive > i {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  font-size: 18px;
+}
+/* line 651, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-menu-responsive .spa-wrap {
+  position: absolute;
+  text-align: center;
+  top: 155px;
+  left: 50%;
+}
+/* line 659, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-menu-responsive .logo {
+  margin-bottom: 50px;
+}
+/* line 662, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-menu-responsive .spa-close-menu-responsive {
+  margin-top: 50px;
+}
+
+/* line 670, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive > ul > li:first-of-type:before {
+  content: "";
+  height: 10px;
+  width: 50%;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  position: absolute;
+  top: 0px;
+  left: -3px;
+  transform: skewX(40deg);
+  -moz-transform: skewX(40deg);
+  -webkit-transform: skewX(40deg);
+  -o-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+}
+/* line 685, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive > ul > li:first-of-type:after {
+  content: "";
+  height: 10px;
+  width: 50%;
+  position: absolute;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  top: 0px;
+  right: -3px;
+  transform: skewX(-40deg);
+  -moz-transform: skewX(-40deg);
+  -webkit-transform: skewX(-40deg);
+  -o-transform: skewX(-40deg);
+  -ms-transform: skewX(-40deg);
+}
+/* line 702, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive > ul > li ul a {
+  font-size: 15px;
+}
+/* line 707, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 711, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive li {
+  list-style-type: none;
+  width: 370px;
+  margin-bottom: 0px;
+  display: inherit;
+  position: relative;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 720, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive li.sfHover {
+  border-bottom: 0px;
+  background-color: #ffffff;
+}
+/* line 724, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive li:hover {
+  background-color: #ffffff;
+}
+/* line 728, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive a {
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 48px;
+  color: #444444;
+  padding: 0px 20px;
+  position: relative;
+}
+/* line 736, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive a:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  bottom: -1px;
+  left: 0px;
+}
+/* line 748, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-responsive a:hover:before {
+  width: 100%;
+}
+
+/* line 755, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-social {
+  margin-top: 20px;
+}
+/* line 757, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-social h4 {
+  font-size: 11px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+/* line 764, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-wrap-social .spa-socail.style-01 {
+  margin-bottom: 30px;
+}
+
+/* line 768, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-socail.style-01 {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 771, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-socail.style-01 li {
+  margin-bottom: 0px;
+}
+/* line 774, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-socail.style-01 li a {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  line-height: 28px;
+  color: #555555;
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+}
+
+/* line 788, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-close-menu-responsive {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333333;
+  background-color: #ffffff;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #e2e2e2;
+  padding: 0px 30px;
+}
+/* line 797, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-close-menu-responsive span {
+  color: #ff3f00;
+  font-weight: bold;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+/* line 805, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-logo span {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 7px;
+}
+
+/* line 817, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-menu-top ul li.mdc-mega {
+  position: static;
+}
+
+/* line 820, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega {
+  position: absolute;
+  width: 1170px;
+  display: none;
+  z-index: 9999;
+  background-color: #ffffff;
+  right: -120px;
+  text-align: left;
+}
+@media screen and (max-width: 1160px) {
+  /* line 820, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+  .mdc-mega-menu.sf-mega {
+    width: 955px;
+  }
+}
+/* line 831, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega > .row {
+  padding: 45px;
+  padding-top: 30px;
+}
+/* line 835, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega .widget-title.style-02 {
+  color: #333333;
+}
+/* line 838, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega .widget_nav_menu a {
+  display: block;
+  color: #4c4c4c;
+}
+/* line 841, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega .widget_nav_menu a:before {
+  margin-right: 25px;
+}
+/* line 845, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.mdc-mega-menu.sf-mega .spa-widget-blog-post-home-1 .entry-item {
+  border: 1px solid #dddddd;
+}
+
+/* line 849, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_header.scss */
+.spa-header.style-01 .header-bottom .mdc-mega-menu img {
+  padding-top: 0px;
+}

@@ -1,3 +1,4 @@
+@import 'sass/_style-sass.scss';
 .spa-single-blog{
 	background-color: $cl-001;
 	text-align: center;
@@ -77,7 +78,7 @@
 	}
 }
 .mdc-entry-post{
-	@extend .spa-widget-post-blog.style-01;
+	@extend .spa-widget-post-blog.style-01 !optional;
 	margin-bottom: 60px !important;
 	.owl-carousel{
 		margin-top: -30px;

@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 106, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-owl-home-2 .price span {
+  color: #ffc800;
+}
+
+/* line 213, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-prev, .spa-widget-owl-home-2 .slick-arrow.slick-prev:after, .spa-widget-owl-home-2 .slick-arrow.slick-next, .spa-widget-owl-home-2 .slick-arrow.slick-next:after {
+  transition: all .3s, visibility 0s;
+  -ms-transition: all .3s, visibility 0s;
+  -webkit-transition: all .3s, visibility 0s;
+  -moz-transition: all .3s, visibility 0s;
+}
+
+/* line 220, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-prev:before, .spa-widget-owl-home-2 .slick-arrow.slick-next:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .spa-slick-1 .entry-item {
+  -ms-transform: scale(0.6);
+  /* IE 9 */
+  -webkit-transform: scale(0.6);
+  /* Safari */
+  transform: scale(0.6);
+}
+/* line 8, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .entry-thumb {
+  margin-bottom: 45px;
+  position: relative;
+}
+/* line 12, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .spa-slick-1 .slick-center {
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Safari */
+  transform: scale(1);
+}
+/* line 17, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .entry-content {
+  text-align: center;
+}
+/* line 20, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .price {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+/* line 27, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .price span {
+  font-weight: bold;
+}
+/* line 32, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .entry-title {
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 13px;
+}
+/* line 37, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .spa-line-arow {
+  margin-bottom: 25px;
+}
+/* line 40, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-prev {
+  text-align: center;
+  padding: 0px;
+  width: 22px;
+  height: 30px;
+  margin: 0px 0.5px;
+  background-color: #dddddd;
+  left: -100px;
+}
+/* line 49, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-prev:before {
+  content: "\f104";
+  color: #ffffff;
+  text-indent: 0px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  left: -4px;
+}
+/* line 59, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-prev:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-bottom-width: 15px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  border-top-width: 15px;
+  border-top-style: solid;
+  border-top-color: transparent;
+  border-right-width: 10px;
+  border-right-style: solid;
+  border-right-color: #dddddd;
+  top: 0px;
+  right: 100%;
+}
+/* line 78, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-next {
+  text-align: center;
+  padding: 0px;
+  width: 22px;
+  height: 30px;
+  margin: 0px 0.5px;
+  background-color: #dddddd;
+  right: -100px;
+}
+/* line 87, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-next:before {
+  content: "\f105";
+  color: #ffffff;
+  text-indent: 0px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  right: -4px;
+}
+/* line 97, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.spa-widget-owl-home-2 .slick-arrow.slick-next:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-bottom-width: 15px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  border-top-width: 15px;
+  border-top-style: solid;
+  border-top-color: transparent;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: #dddddd;
+  top: 0px;
+  left: 100%;
+}
+
+/* line 118, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_owl-home-2.scss */
+.slick-slide:focus {
+  outline: 0px;
+}

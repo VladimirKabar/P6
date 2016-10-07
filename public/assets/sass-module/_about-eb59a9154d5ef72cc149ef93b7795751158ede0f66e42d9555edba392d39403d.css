@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Codystar);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300);
+/* line 106, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-our-team .entry-title a:hover {
+  color: #ffc800;
+}
+
+/* line 110, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-about-post .entry-item .spa-wrap-line:before {
+  background: #ffc800;
+}
+
+/* line 130, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-our-team .entry-content {
+  border-left-color: #ffc800;
+}
+
+/* line 213, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+.spa-widget-our-team .entry-content {
+  transition: all .3s, visibility 0s;
+  -ms-transition: all .3s, visibility 0s;
+  -webkit-transition: all .3s, visibility 0s;
+  -moz-transition: all .3s, visibility 0s;
+}
+
+/* line 439, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 445, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass/_style-sass.scss */
+::-moz-selection {
+  background: #ffc800;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 3, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need p, .spa-widget-info-need span {
+  font-size: 16px;
+  line-height: 25px;
+  color: #525252;
+}
+/* line 8, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need p {
+  margin-bottom: 25px;
+}
+/* line 10, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need p:last-of-type {
+  margin-bottom: 105px;
+}
+/* line 14, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need .widget-content > span {
+  font-family: "Roboto", sans-serif;
+  display: block;
+}
+/* line 17, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need .widget-content > span span {
+  color: #333333;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* line 23, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-info-need img {
+  float: right;
+  margin-top: -55px;
+}
+
+/* line 31, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .owl-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+}
+/* line 36, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-sub-title {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333333;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 45, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+/* line 50, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-item .spa-wrap-line {
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-bottom: 25px;
+}
+/* line 54, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-item .spa-wrap-line .entry-title {
+  margin-bottom: 0px;
+}
+/* line 59, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-item .spa-wrap-line:before {
+  height: 100%;
+  width: 4px;
+  opacity: 0.95;
+  left: 0px;
+  top: 0px;
+}
+/* line 67, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-post .entry-content {
+  padding-top: 40px;
+}
+
+/* line 72, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-gallery img {
+  width: 100%;
+}
+/* line 75, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-gallery ul {
+  margin-top: -5px;
+}
+/* line 78, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-about-gallery li[class^=col] {
+  padding-top: 5px;
+}
+
+/* line 83, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-thumb {
+  text-align: center;
+}
+/* line 86, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-thumb img {
+  width: auto;
+}
+/* line 89, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 93, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-item {
+  position: relative;
+  overflow: hidden;
+}
+/* line 97, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-item:hover .entry-content {
+  left: 0px;
+}
+/* line 102, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-content {
+  position: absolute;
+  top: 160px;
+  left: 100%;
+  width: 100%;
+  background-color: #333333;
+  border-left-width: 4px;
+  border-left-style: solid;
+  padding: 15px 17px;
+}
+/* line 114, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-title {
+  color: #ffffff;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+/* line 119, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .entry-title a {
+  color: #ffffff;
+}
+/* line 126, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_about.scss */
+.spa-widget-our-team .item-sub-title {
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
