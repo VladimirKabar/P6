@@ -1,0 +1,54 @@
+@import 'sass/_style-sass.scss';
+.spa-element-content{
+	div[class^='spa-element']{
+		margin-bottom: 55px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
+	}
+	.spa-element-header{
+		p{
+			margin-bottom: 20px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.spa-element-alert{
+		.row{
+			margin-top: -10px;
+			div.spa-alert{
+				margin-top: 10px;
+			}
+		}
+	}
+	.spa-element-button{
+		p{
+			margin-bottom: 25px;
+			margin-top: 45px;
+			&:first-of-type{
+				margin-top: 0px;
+			}
+			span{
+				font-family: $font-primary;
+				font-weight: bold;
+			}
+		}
+	}
+	.spa-element-qoute{
+		>blockquote{
+			margin-bottom: 50px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.spa-element-tab{
+		>.row{
+			margin-bottom: 40px;
+			&:last-of-type{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}

@@ -1,0 +1,105 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-sync-owl-home-1{
+	.owl-carousel .owl-item img{
+		width: auto;
+	}
+	#sync1{
+		margin-bottom: 35px;
+		.owl-controls{
+			display: none;
+		}
+		.entry-item{
+			text-align: center;
+			i{
+				font-size: 69px;
+				color: $cl-070;
+				line-height: 65px;
+				display: inline-block;
+				margin-bottom: 15px;
+			}
+			p{
+				font-size: 17px;
+				line-height: 27px;
+				color: $cl-027;
+				span{
+					color: $color-primary;
+					font-weight: 500;
+				}
+			}
+		}
+		.entry-title{
+			font-size: 16px;
+			line-height: 28px;
+			position: relative;
+			border-bottom: 1px solid $cl-010;
+			padding-bottom: 30px;
+			margin-bottom: 40px;
+			span{
+				font-size: 14px;
+				line-height: 25px;
+				color: $cl-026;
+				text-transform: capitalize;
+			}
+			&:before{
+				content: "";
+				position: absolute;
+				bottom: -10px;
+				left: 50%;
+				margin-left: -7px;
+				height: 0px;
+				width: 0px;
+				border-left: 7px solid transparent;
+				border-right: 7px solid transparent;
+				border-top: 10px solid $cl-016;
+				z-index: 3;
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				bottom: -9px;
+				left: 50%;
+				margin-left: -6px;
+				height: 0px;
+				width: 0px;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 9px solid $cl-001;
+				z-index: 4;
+			}
+		}
+	}
+	.owl-sync-widget{
+		>.row >div[class^=col] >.owl-carousel{
+			width: 180px;
+			margin: auto;
+			img{
+				width: 100%;
+				padding: 0px 5px;
+			}
+		}
+	}
+	#sync2{
+		.owl-controls{
+			margin-top: 55px;
+		}
+		.item{
+			position: relative;
+			&:before{
+				content: "";
+				height: 100%;
+				width: 100%;
+				background-color: rgba(255,255,255,0.5);
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index: 9;
+			}
+		}
+		.owl-item.synced .item{
+			&:before{
+				height: 0px;
+				width: 0px;
+			}
+		}
+	}
+}

@@ -1,0 +1,129 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-product-special-home-2{
+	a.spa-special-call{
+		background-color: $cl-001;
+		font-size: 14px;
+		line-height: 25px;
+		color: $color-primary;
+		text-transform: uppercase;
+		padding: 12px 0px;
+		padding-left: 15px;
+		padding-right: 30px;
+		border-radius: 2px;
+		display: inline-block;
+		position: relative;
+		border: 1px solid $cl-036;
+		img{
+			position: absolute;
+			top: -40px;
+		}
+		span{
+			font-size: 18px;
+			font-weight: bold;
+			margin-left: 49px;
+		}
+		i{
+			@extend %main_color_1;
+			font-size: 20px;
+			margin-right: 5px;
+		}
+		&:before{
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 1px;
+			background-color: $cl-012;
+			top: 0px;
+			left: 49.7%;
+		}
+	}
+	.spa-line{
+		border-left: 1px solid $cl-033;
+		padding-left: 55px;
+	}
+	.spa-call-me{
+		margin-bottom: -25px;
+		text-align: center;
+	}
+	.row.mh-populor{
+		padding-bottom: 23px;
+	}
+}
+.spa-module-location-our{
+	text-align: center;
+	position: relative;
+	padding-top: 5px;
+	.spa-wrap{
+		position: absolute;
+		top: 65px;
+		width: 100%;
+		text-align: center;
+		left: 0px;
+	}
+	span{
+		display: block;
+	}
+	.span-number{
+		font-size: 51px;
+		line-height: 51px;
+		@extend %main_color_2;
+		letter-spacing: -1.5px;
+		font-weight: bold;
+		margin-bottom: 3px;
+		span{
+			display: inline-block;
+			color: $cl-001;
+			font-weight: normal;
+		}
+	}
+	.spa-map-link{
+		font-size: 12px;
+		line-height: 12px;
+		text-transform: uppercase;
+		color: $cl-032;
+		a{
+			color: $cl-001;
+			text-decoration: underline !important;
+			&:hover{
+				@extend %main_color_1;
+			}
+		}
+	}
+}
+.spa-module-welcome{
+	padding-top: 10px;
+	>span{
+		font-size: 16px;
+		line-height: 25px;
+		font-weight: normal;
+		color: $cl-003;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 2px;
+		display: block;
+		margin-bottom: 7px;
+	}
+	h3{
+		font-size: 30px;
+		line-height: 33px;
+		letter-spacing: 0.1px;
+		margin-bottom: 18px;
+		span{
+			@extend %main_color_2;
+		}
+	}
+	p{
+		font-size: 16px;
+		line-height: 24px;
+		color: $cl-027;
+		span{
+			color: $cl-001;
+			font-weight: 500;
+		}
+	}
+}
+.white-text-style{
+	.spa-module-welcome h3{
+		color: $cl-001;
+	}
+}

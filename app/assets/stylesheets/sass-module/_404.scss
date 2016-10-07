@@ -1,0 +1,61 @@
+//@import 'sass/_style-sass.scss';
+.spa-widget-404{
+	.error-search-form {
+		.row{
+			margin: 0 -4px;
+			> div{
+				padding: 0 4px;
+			}
+		}
+	    input[type="text"] {
+	        border: 1px solid $cl-006;
+	        color: $color-secondary;
+	        padding: 0 20px;
+	        height: 52px;
+	        line-height: 52px;
+	        font-size: 16px;
+	        font-style: italic;
+	        width: 100%;
+	        @extend %transition;
+	    }
+	    input[type="submit"] {
+	        border: none !important;
+	        height: 52px;
+	        line-height: 52px;
+	        width: 100%;
+	        text-align: center;
+	        text-transform: uppercase;
+	        color: #fff;
+	        background: $color-primary;
+	        @extend %transition;
+	        &:hover {
+	            @extend %main_bg_color;
+	        }
+	    }
+	}
+    text-align: center;
+    .widget-content{
+        > header{
+            h3 {
+                font-size: 34px;
+                line-height: 42px;
+            }
+            a{
+                @extend %main_color;
+                &:hover{
+                    color: $color-primary;
+                }
+            }
+        }
+        > p{
+            font-size: 240px;
+            line-height: .8em;
+            font-weight: 600;
+            @extend %main_color;
+            margin: 40px 0 60px;
+            @media screen and (max-width: 639px) {
+                font-size: 100px;
+            }
+        }
+    }
+}

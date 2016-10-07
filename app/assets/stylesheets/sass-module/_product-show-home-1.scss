@@ -1,0 +1,118 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-product-show-home-1{
+	.spa-view-gridlist{
+		position: absolute;
+		right: 0px;
+		top: 12px;
+	}
+	.woocommerce .price ins span{
+		@extend %transition;
+	}
+	.entry-item{
+		@extend %transition;
+		.entry-title{
+			margin-bottom: 20px;
+		}
+		background: $cl-001;
+		&:hover{
+			-webkit-box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.75);
+			.woocommerce .price ins span{
+				@extend %main_bg_color;
+			}
+		}
+	}
+	.entry-content{
+		padding: 16px 30px 25px 30px;
+		background: $cl-001;
+	}
+	.entry-item .spa-wrap-line:before{
+		left: -30px;
+	}
+	.widget-content{
+		.spa-masonry{
+			margin-left: -15px;
+			margin-right: -15px;
+			margin-top: -30px;
+			li{
+				margin-top: 30px;
+			}
+		}
+	}
+	.filters-options{
+		margin-bottom: 50px;
+	}
+	.spa-menu-filter{
+		margin-bottom: 30px;
+	}
+	.entry-item.style-01{
+		.spa-readmore{
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			font-size: 17px;
+			font-weight: bold;
+			padding-left: 19px;
+			i{
+				width: 38px;
+				line-height: 36px;
+				margin-left: 19px;
+				margin-right: -1px;
+			}
+		}
+		.entry-content{
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			padding: 10px 25px;
+			img{
+				position: absolute;
+				bottom: 10px;
+				right: 5px;
+			}
+		}
+		.entry-title{
+			font-size: 17px;
+			line-height: 30px;
+			font-weight: bold;
+			margin-bottom: 0px;
+			span{
+				@extend %main_color_1;
+			}
+		}
+	}
+	.entry-thumb{
+		overflow: hidden;
+		img{
+			@include scale(1);
+			@extend %transition;
+		}
+		&:hover{
+			img{
+				@include scale(1.12);
+			}
+		}
+	}
+	.spa-list{
+		width: 50%;
+		.entry-thumb{
+			width: auto;
+			float: left;
+		}
+		.entry-content{
+			overflow: hidden;
+			padding: 11px 30px 20px 30px;
+		}
+		.entry-item .spa-wrap-line:before{
+			left: auto;
+			right: -30px;
+		}
+	}
+	@media screen and (max-width: 1500px) {
+		.spa-list{
+			width: 100%;
+		}
+	}
+}

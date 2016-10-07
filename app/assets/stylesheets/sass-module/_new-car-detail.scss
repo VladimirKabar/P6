@@ -1,0 +1,76 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-only-thumb-right{
+	text-align: right;
+}
+.spa-widget-car-detail-price{
+	.widget-content p{
+		font-size: 16px;
+		line-height: 25px;
+		color: $cl-021;
+		margin-bottom: 25px;
+		a{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		&:last-of-type{
+			margin-bottom: 37px;
+		}
+	}
+	.spa-line-arow{
+		margin-bottom: 25px;
+		&:before{
+			width: 5%;
+		}
+		&:after{
+			width: 95%;
+		}
+	}
+	.price{
+		font-size: 22px;
+		line-height: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+		>.amount{
+			color: $cl-053;
+		}
+	}
+	.spa-list-car-detail{
+		margin-bottom: 35px;
+	}
+}
+.spa-widget-car-detail-color{
+	.widget-content p{
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 35px;
+	}
+	.spa-list-text{
+		margin-left: 25px;
+		margin-bottom: 23px;
+	}
+	
+}
+.spa-widget-detail-champion{
+	p{
+		font-size: 16px;
+		line-height: 26px;
+		color: $cl-010;
+		margin-bottom: 45px;
+	}
+}
+.spa-widget-chosse-product-detail{
+	.widget-content p{
+		font-size: 16px;
+		line-height: 26px;
+		color: $cl-021;
+		margin-bottom: 50px;
+	}
+}
+.white-text-style .spa-widget-car-detail-color{
+	p{
+		color: rgba(255,255,255,0.8);
+	}
+	.spa-list-text li{
+		color: $cl-001;
+	}
+}

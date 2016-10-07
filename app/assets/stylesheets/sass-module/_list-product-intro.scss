@@ -1,0 +1,27 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-list-product-intro{
+	.entry-item{
+		padding: 0px 15px;
+		position: relative;
+		&:before{
+			content: "";
+			height: 100%;
+			top: 0px;
+			left: 15px;
+			right: 15px;
+			display: block;
+			position: absolute;
+			-webkit-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.15);
+			-moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.15);
+			box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.15);
+		}
+	}
+	.entry-title{
+		margin-bottom: 10px;
+	}
+	.entry-content{
+		background-color: $cl-001;
+		padding: 20px 35px;
+		padding-bottom: 50px;
+	}
+}

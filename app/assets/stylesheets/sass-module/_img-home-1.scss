@@ -1,0 +1,18 @@
+@import 'sass/_style-sass.scss';
+.spa-widget-img-home-1{
+	.widget-content{
+		div[class^=col]{
+			border-left: 1px solid $cl-016;
+			&:first-of-type{
+				border-left: 0px;
+			}
+		}
+		img{
+			opacity: 0.35;
+			@extend %transition;
+			&:hover{
+				opacity: 1;
+			}
+		}
+	}
+}

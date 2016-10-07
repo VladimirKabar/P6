@@ -1,0 +1,51 @@
+<div class="main-container">
+  <header class="spa-header style-01">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-9 col-xs-12 custom-col-left">
+            <div class="spa-location">
+              <p></p>
+            </div>
+            <div class="col-md-3 col-sm-3 custom-col-right">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <p></p>
+        <div class="row">
+          <p></p>
+          <div class="col-md-2 col-sm-3 col-xs-3">
+            <%= link_to (image_tag ('logo.jpg'), alt: 'Ukryty przycisk do panelu admina', title: 'Ukryty przycisk do panelu admina'), kontakt_path %>
+            <!--tu bedzie wyzej link do panelu admina-->
+            <p></p>
+          </div>
+          <div class="col-md-10 col-sm-9 col-xs-9 spa-algr">
+            <nav class="spa-menu-top">
+              <ul>
+                <li><%= link_to "Home", root_path %>
+                </li>
+                <li><%= link_to "O firmie", firma_path %>
+                </li>
+                <li><%= link_to "Projekty", projekty_path %>
+                </li>
+                <li><%= link_to "Kontakt", kontakt_path %>
+                </li>
+                <li><%= link_to "Admin (pojawi sie jezeli zalogowany)" %>
+                </li>
+                <li><%= link_to "Powrót", 'javascript:history.go(-1);' %>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+
+
