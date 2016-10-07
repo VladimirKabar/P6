@@ -20,7 +20,7 @@
         <div class="row">
           <p></p>
           <div class="col-md-2 col-sm-3 col-xs-3">
-            <%= link_to (image_tag ('logo.jpg')), kontakt_path %>
+            <%= link_to (image_tag ('logo.jpg') , alt: 'Ukryty przycisk do panelu admina', title: 'Ukryty przycisk do panelu admina' ), kontakt_path %>
             <!--tu bedzie wyzej link do panelu admina-->
             <p></p>
           </div>
@@ -35,7 +35,7 @@
                 </li>
                 <li><%= link_to "Kontakt", kontakt_path %>
                 </li>
-                <li><%= link_to "Admin jezeli zalogowany" %>
+                <li><%= link_to "Admin (pojawi sie jezeli zalogowany)" %>
                 </li>
                 <li><%= link_to "Powrót", 'javascript:history.go(-1);' %>
                 </li>
