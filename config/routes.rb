@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   get 'firma' => 'static_pages#firma'
   get 'projekty' => 'static_pages#projekty'
   get 'kontakt' => 'static_pages#kontakt'
-  get 'test' => 'static_pages#test'
-  get 'gen' => 'static_pages#index1'
+  get 'gen' => 'static_pages#test'
+  get 'test' => 'static_pages#index1'
 
 
 end

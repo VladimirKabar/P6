@@ -121,7 +121,7 @@
 }
 /* line 86, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_product-show-home-1.scss */
 .spa-widget-product-show-home-1 .entry-thumb {
-  overflow: hidden;
+  overflow: scroll;
 }
 /* line 88, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_product-show-home-1.scss */
 .spa-widget-product-show-home-1 .entry-thumb img {
@@ -150,7 +150,7 @@
 }
 /* line 104, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_product-show-home-1.scss */
 .spa-widget-product-show-home-1 .spa-list .entry-content {
-  overflow: hidden;
+  overflow: scroll;
   padding: 11px 30px 20px 30px;
 }
 /* line 108, /home/vladimir/RubymineProjects/P6/app/assets/stylesheets/sass-module/_product-show-home-1.scss */
