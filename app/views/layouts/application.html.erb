@@ -8,6 +8,7 @@
 
 
   <%= javascript_include_tag 'js/jquery-1.12.0.min', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'js/bootstrap.min.js', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'js/jquery.matchHeight-min.js', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'js/owl.carousel.min.js', media: 'all', 'data-turbolinks-track' => true %>
@@ -25,8 +26,14 @@
 <body>
 <div class="main-container">
   <%= render 'layouts/header' %>
+  <%= yield %>
   <div class="main-content">
-    <%= yield %>
+    <% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
     <%= render 'layouts/footer' %>
   </div>
 
