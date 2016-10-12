@@ -1,0 +1,10 @@
+<p>
+  <% @resources.each do |r| %>
+    <p><%= r.title %></p>
+
+    <p></p>
+    <%= image_tag r.image.url(:small) %>
+    <p></p>
+    <p><%= r.description %></p>
+<% end %>
+</p>
