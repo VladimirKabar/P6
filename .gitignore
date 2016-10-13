@@ -24,3 +24,7 @@
 vendor/cache/ruby/2.3.0/build_info/
 vendor/cache/ruby/2.3.0/doc/
 vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/
+
+config/database.yml
+.ruby-version
+.ruby-gemset
