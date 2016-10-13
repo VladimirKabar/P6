@@ -13,7 +13,6 @@
 <<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161012193335) do
 =======
-ActiveRecord::Schema.define(version: 20161013082254) do
 >>>>>>> 670c29544bed3bd898507280617dc3b50db6f148
 
   # These are extensions that must be enabled in order to support this database
