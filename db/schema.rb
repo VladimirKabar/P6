@@ -10,10 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
+
 ActiveRecord::Schema.define(version: 20161012193335) do
-=======
->>>>>>> 670c29544bed3bd898507280617dc3b50db6f148
+
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +46,8 @@ ActiveRecord::Schema.define(version: 20161012193335) do
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
+
+    t.integer  "sign_in_count"
 
   end
 
