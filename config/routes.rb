@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
 
+  get 'resources/index'
+
+  get 'resources/show'
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
   root 'static_pages#home'
@@ -10,6 +14,10 @@ Rails.application.routes.draw do
   get 'kontakt' => 'static_pages#kontakt'
   get 'gen' => 'static_pages#test'
   get 'test' => 'static_pages#index1'
+  resources :projects
+  resources :resources
+
+  get '*path' => redirect('/')
 
 end
 

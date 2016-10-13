@@ -31,7 +31,7 @@
                 </li>
                 <li><%= link_to "O firmie", firma_path %>
                 </li>
-                <li><%= link_to "Projekty", projekty_path %>
+                <li><%= link_to "Projekty", projects_path %>
                 </li>
                 <li><%= link_to "Kontakt", kontakt_path %>
                 </li>
@@ -41,8 +41,6 @@
                     <li> <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
                     </li>
                 <% end %>
-                <li><%= link_to "Powrót", 'javascript:history.go(-1);' %>
-                </li>
               </ul>
             </nav>
           </div>
