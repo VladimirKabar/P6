@@ -11,9 +11,9 @@ class ResourcesController < ApplicationController
   def create
     @resource = Resource.new(resource_params)
     if @resource.save
-      flash.now[:notice] = "Dodano nowy projekt"
+      flash.now[:notice] = "Dodano nowy zasób"
     else
-      flash.now[:error] = "Nie mozna dodac projektu"
+      flash.now[:error] = "Nie mozna dodac zasobu"
       redirect_to :back
     end
   end
