@@ -1,10 +1,10 @@
-<p>
-  <% @project.resources.each do |r| %>
-    <p><%= r.title %></p>
-
-    <p></p>
+<% @project.resources.each do |r| %>
     <%= image_tag r.image.url(:small) %>
     <p></p>
+    <!-- Opis slajdu -->
+
+    <h3><%= r.title %></h3>
     <p><%= r.description %></p>
+
 <% end %>
-</p>
+

@@ -26,7 +26,6 @@
 <body>
 <div class="main-container">
   <%= render 'layouts/header' %>
-  <%= yield %>
   <div class="main-content">
     <% if notice %>
         <p class="alert alert-success"><%= notice %></p>
@@ -34,11 +33,9 @@
     <% if alert %>
         <p class="alert alert-danger"><%= alert %></p>
     <% end %>
-    <%= render 'layouts/footer' %>
+    <%= yield %>
   </div>
-
-  <div class="spa-wrap-gototop"><span class="spa-gototop"><i class="fa fa-long-arrow-up"></i></span>
-  </div>
+  <%= render 'layouts/footer' %>
 </div>
 </body>
 </html>

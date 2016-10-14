@@ -1762,7 +1762,7 @@ div.widget-content .custom-row-06 {
   display: inline-block;
   left: 50%;
   margin-left: -22px;
-  bottom: 78px;
+  bottom: 34px;
   z-index: 9999999999999; }
 
 .spa-btt-hastar {
@@ -3760,7 +3760,7 @@ span.spa-hexan {
 .spa-header.style-01 .header-bottom .spa-algr {
   text-align: right; }
 .spa-header.style-01 .header-bottom img {
-  padding-top: 25px; }
+  padding-top: 0px; }
 .spa-header.style-01 .header-bottom .spa-menu-top {
   position: relative;
   top: -13px;
@@ -3779,15 +3779,21 @@ span.spa-hexan {
         line-height: 16px;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 13px 12px;
-        display: block; }
+        padding: 50px 12px;
+        display: block;
+        vertical-align: middle;}
 @media screen and (max-width: 1023px) {
   .spa-header.style-01 .header-top {
-    display: none; }
+    display: none;
+  }
   .spa-header.style-01 .spa-menu-top {
-    display: none; }
+    display: none;
+  }
   .spa-header.style-01 .header-bottom {
-    background-color: #f8f8f8; } }
+    background-color: #f8f8f8;
+  }
+}
+
 @media screen and (max-width: 639px) {
   .spa-header.style-01 .header-bottom .row > div {
     width: auto; }
@@ -5280,13 +5286,13 @@ span.spa-hexan {
 *-------------------------------------------------------------------------------
 */
 .bottom-sidebar .widget {
-  margin-bottom: 130px; }
+  margin-bottom: 15px; }
 .bottom-sidebar .widget-title {
-  margin-bottom: 50px; }
+  margin-bottom: 15px; }
 
 .bottom-sidebar.style-01 {
-  background-image: url('../images/3.jpg');
-  background-size: cover; }
+  background-image: url(footer_background.png);
+  background-size: contain;  }
   .bottom-sidebar.style-01 .custom-row-bottom {
     margin-top: -45px; }
     .bottom-sidebar.style-01 .custom-row-bottom .widget {
@@ -5457,7 +5463,7 @@ span.spa-hexan {
 
 .spa-footer {
   background: #1e1e1e;
-  padding: 33px 0px; }
+  padding: 5px 0px; }
   .spa-footer .spa-copyright {
     font-size: 14px;
     line-height: 16px;
@@ -8940,7 +8946,7 @@ span.spa-hexan {
     width: 100%; }
 
   .spa-wrap-gototop {
-    bottom: 100px; }
+    bottom: 35px; }
 
   .custom-row-01.style-01 > div {
     width: 100%; }
@@ -9295,7 +9301,7 @@ span.spa-hexan {
     top: 78%; }
 
   .spa-wrap-gototop {
-    bottom: 150px; }
+    bottom: 0px; }
 
   .spa-widget-thumb-bg-home-1 .widget-header.style-04 p {
     font-size: 7px;
