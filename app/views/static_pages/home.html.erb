@@ -1,20 +1,33 @@
 <% provide(:title, "Strona główna") %>
 
-<section class="spa-area spa-area-no-space" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-  <div class="widget spa-widget-owl-slide-home1">
-    <div class="owl-carousel spa-owl-slider">
-      <article class="entry-item">
-        <div class="entry-thumb">
-          <%= image_tag ('3.jpg') %>
-        </div>
-        <div class="entry-content">
-          <center>
-            <p>Tu zaczyna sie cale zuoooo</p>
-          </center>
+<!-- start content -->
 
-          </p>
-        </div>
-      </article>
-    </div>
+<div id="content">
+  <!-- <h1>strona główna</h1> -->
+  <div id="rotate" style="display:none;">
+    <%= image_tag ('index1.jpeg') %>
+    <%= image_tag ('index2.jpeg') %>
+    <%= image_tag ('index3.jpeg') %>
+    <%= image_tag ('index4.jpeg') %>
+    <%= image_tag ('index5.jpeg') %>
+    <%= image_tag ('index6.jpeg') %>
   </div>
-</section>
+  <script type="text/javascript">$(document).ready(function () {
+    $('#rotate').css('display', 'block');
+    $('#rotate').cycle({fx: 'fade', timeout: 1000, after: onAfter, speed: 3000});
+  });
+  function onAfter(curr, next, opts, fwd) {
+    var $ht = $(this).height();
+    $(this).parent().animate({height: $ht});
+  }
+  </script>
+</div>
+
+<script type="text/javascript">
+  $('.thumbtree').hover(function () {
+        $('> .caption2', this).animate({bottom: '0px'}, 200);
+      },
+      function () {
+        $('> .caption2', this).animate({bottom: '-40px'}, 200);
+      });
+</script>
