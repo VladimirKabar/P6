@@ -1,6 +1,20 @@
-<p><% @projects.each do |p| %>
-   <h1><%= p.title %></h1>
-    <p></p>
-   <%= link_to "Zobacz projekt", project_path(p) %>
+<% @projects.each do |p| %>
+    <%= p.title %>
+    <%= p.resources.map(&:title) %>
+    <div id="content">
+      <div id="rotate" style="display:none;">
+        <% p.resources.each do |r| %>
+            <%= image_tag r.image.url %>
+        <% end %>
+        <script type="text/javascript">$(document).on('page:load', ready)(function () {
+          $('#rotate').css('display', 'block');
+          $('#rotate').cycle({fx: 'fade', timeout: 1000, after: onAfter, speed: 3000});
+        });
+        function onAfter(curr, next, opts, fwd) {
+          var $ht = $(this).height();
+          $(this).parent().animate({height: $ht});
+        }
+        </script>
+      </div>
+    </div>
 <% end %>
-</p>

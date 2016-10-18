@@ -1,11 +1,17 @@
 <div id="content">
+
   <div id="rotate" style="display:none;">
     <% @project.resources.each do |r| %>
-        <%= image_tag r.image.url(:small) %>
+        <%= image_tag(r.image.url(:small)) %>
+        <p></p>
+
+        <p><%= r.title %></p>
+        <p><%= r.description %></p>
     <% end %>
   </div>
 
-  <script type="text/javascript">$(document).ready(function () {
+
+  <script type="text/javascript">$(document).on('page:load', ready)(function () {
     $('#rotate').css('display', 'block');
     $('#rotate').cycle({fx: 'fade', timeout: 1000, after: onAfter, speed: 3000});
   });
@@ -16,11 +22,3 @@
   </script>
 </div>
 
-<script type="text/javascript">
-  $('.thumbtree').hover(function () {
-        $('> .caption2', this).animate({bottom: '0px'}, 200);
-      },
-      function () {
-        $('> .caption2', this).animate({bottom: '-40px'}, 200);
-      });
-</script>
