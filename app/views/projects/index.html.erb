@@ -40,7 +40,7 @@
             </ol>
             <ul class="row spa-masonry">
               <% @projects.each do |p| %>
-                  <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val= <%=p.type%> >
+                  <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val= <%=p.category%> >
                     <div class="rotate" style="display:none;">
                       <% p.resources.each do |r| %>
                           <%= link_to((image_tag r.image.url), project_path(p)) %>
