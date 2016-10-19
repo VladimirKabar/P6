@@ -1,10 +1,25 @@
-<% @project.resources.each do |r| %>
-    <%= image_tag r.image.url(:small) %>
-    <p></p>
-    <!-- Opis slajdu -->
+<% provide(:title, "Projekt: " + @project.title) %>
 
-    <h3><%= r.title %></h3>
-    <p><%= r.description %></p>
-
-<% end %>
-
+<section class="spa-area spa-area-17">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="widget spa-widget-portfolio">
+          <div class="widget-header style-08">
+            <span class="sub-title style-03">WizzART </span>
+            <h3 class="widget-title style-05"> Zdjęcia </h3>
+          </div>
+          <div class="widget-content">
+            <ul class="row spa-masonry">
+              <% @project.resources.each do |r| %>
+                  <li class="spa-item col-md-6 col-sm-6 col-xs-6">
+                    <%= image_tag(r.image.url) %>
+                  </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

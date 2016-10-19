@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    @projects = Project.order(created_at: :desc).first(3)
   end
 
   def firma
@@ -10,7 +11,7 @@ class StaticPagesController < ApplicationController
 
   def kontakt
   end
-  def test
 
+  def test
   end
 end
