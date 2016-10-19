@@ -1,10 +1,9 @@
 <% provide(:title, "Strona główna") %>
 
 <div id="content">
-
   <div class="rotate" style="display:none;">
-    <% for i in 1..5 %>
-        <%= image_tag ("index#{i}.jpeg") %>
+    <% 6.times do |i| %>
+        <%= image_tag("index#{i}.jpeg") %>
     <% end %>
   </div>
 </div>

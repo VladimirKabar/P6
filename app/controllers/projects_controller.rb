@@ -1,10 +1,6 @@
 class ProjectsController < ApplicationController
   #before_filter :authenticate_admin!, only: [:edit, :create, :destroy,:update]
 
-  def typ_enum
-    ['projekt', 'wizualizacja']
-  end
-
   def index
     @projects = Project.all
   end
