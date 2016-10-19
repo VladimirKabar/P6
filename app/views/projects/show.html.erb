@@ -1,24 +1,26 @@
-<div id="content">
+<% provide(:title, "Projekt: " + @project.title) %>
 
-  <div id="rotate" style="display:none;">
-    <% @project.resources.each do |r| %>
-        <%= image_tag(r.image.url(:small)) %>
-        <p></p>
-
-        <p><%= r.title %></p>
-        <p><%= r.description %></p>
-    <% end %>
+<section class="spa-area spa-area-17">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="widget spa-widget-portfolio">
+          <div class="widget-header style-08">
+            <span class="sub-title style-03">WizzART </span>
+            <h3 class="widget-title style-05"> Zdjęcia </h3>
+          </div>
+          <div class="widget-content">
+            <ul class="row spa-masonry">
+              <% @project.resources.each do |r| %>
+                  <li class="spa-item col-md-6 col-sm-6 col-xs-6">
+                    <%= image_tag(r.image.url) %>
+                    <p></p>
+                  </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-
-  <script type="text/javascript">$(document).on('page:load', ready)(function () {
-    $('#rotate').css('display', 'block');
-    $('#rotate').cycle({fx: 'fade', timeout: 1000, after: onAfter, speed: 3000});
-  });
-  function onAfter(curr, next, opts, fwd) {
-    var $ht = $(this).height();
-    $(this).parent().animate({height: $ht});
-  }
-  </script>
-</div>
-
+</section>
