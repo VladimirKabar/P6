@@ -28,8 +28,6 @@
 * 1. Global Styles
 * ----------------------------------------------------------------------------
 */
-
-@import 'sass/_style-sass.scss';
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Codystar);
@@ -1762,7 +1760,7 @@ div.widget-content .custom-row-06 {
   display: inline-block;
   left: 50%;
   margin-left: -22px;
-  bottom: 34px;
+  bottom: 78px;
   z-index: 9999999999999; }
 
 .spa-btt-hastar {
@@ -3760,11 +3758,11 @@ span.spa-hexan {
 .spa-header.style-01 .header-bottom .spa-algr {
   text-align: right; }
 .spa-header.style-01 .header-bottom img {
-  padding-top: 0px; }
+  padding-top: 25px; }
 .spa-header.style-01 .header-bottom .spa-menu-top {
   position: relative;
-  top: -13px;
-  margin-right: 25px; }
+  top: 25px;
+  margin-right: -10px; }
 .spa-header.style-01 .spa-menu-top {
   display: inline-block; }
   .spa-header.style-01 .spa-menu-top > ul {
@@ -3779,21 +3777,15 @@ span.spa-hexan {
         line-height: 16px;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 50px 12px;
-        display: block;
-        vertical-align: middle;}
+        padding: 13px 12px;
+        display: block; }
 @media screen and (max-width: 1023px) {
   .spa-header.style-01 .header-top {
-    display: none;
-  }
+    display: none; }
   .spa-header.style-01 .spa-menu-top {
-    display: none;
-  }
+    display: none; }
   .spa-header.style-01 .header-bottom {
-    background-color: #f8f8f8;
-  }
-}
-
+    background-color: #f8f8f8; } }
 @media screen and (max-width: 639px) {
   .spa-header.style-01 .header-bottom .row > div {
     width: auto; }
@@ -5286,13 +5278,13 @@ span.spa-hexan {
 *-------------------------------------------------------------------------------
 */
 .bottom-sidebar .widget {
-  margin-bottom: 15px; }
+  margin-bottom: 130px; }
 .bottom-sidebar .widget-title {
-  margin-bottom: 15px; }
+  margin-bottom: 50px; }
 
 .bottom-sidebar.style-01 {
-  background-image: url(footer_background.jpg);
-  background-size: contain;  }
+  background-image: url("img/background/3.jpg");
+  background-size: cover; }
   .bottom-sidebar.style-01 .custom-row-bottom {
     margin-top: -45px; }
     .bottom-sidebar.style-01 .custom-row-bottom .widget {
@@ -5463,7 +5455,7 @@ span.spa-hexan {
 
 .spa-footer {
   background: #1e1e1e;
-  padding: 5px 0px; }
+  padding: 33px 0px; }
   .spa-footer .spa-copyright {
     font-size: 14px;
     line-height: 16px;
@@ -8946,7 +8938,7 @@ span.spa-hexan {
     width: 100%; }
 
   .spa-wrap-gototop {
-    bottom: 35px; }
+    bottom: 100px; }
 
   .custom-row-01.style-01 > div {
     width: 100%; }
@@ -9301,7 +9293,7 @@ span.spa-hexan {
     top: 78%; }
 
   .spa-wrap-gototop {
-    bottom: 0px; }
+    bottom: 150px; }
 
   .spa-widget-thumb-bg-home-1 .widget-header.style-04 p {
     font-size: 7px;

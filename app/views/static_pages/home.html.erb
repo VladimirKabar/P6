@@ -8,31 +8,4 @@
   </div>
 </div>
 
-<section class="spa-area spa-area-17">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="widget spa-widget-portfolio">
-          <div class="widget-header style-08">
-            <span class="sub-title style-03">WizzART </span>
-            <h3 class="widget-title style-05">Najnowsze projekty </h3>
-          </div>
-          <div class="widget-content">
-            <ul class="row spa-masonry">
-              <% @projects.each do |p| %>
-                  <li class="spa-item col-md-3 col-sm-6 col-xs-6">
-                    <div class="rotate" style="display:none;">
-                      <% p.resources.each do |r| %>
-                          <%= link_to((image_tag r.image.url), project_path(p)) %>
-                      <% end %>
-                    </div>
-                    <p><%= p.title %></p>
-                  </li>
-              <% end %>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<%= render partial: 'static_pages/home/recent_products' %>

@@ -1,43 +1,43 @@
-<div class="main-container">
-  <header class="spa-header style-01">
-    <div class="header-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9 col-sm-9 col-xs-12">
-            <div class="spa-location">
-            </div>
-            <div class="col-md-3 col-sm-3">
-            </div>
-          </div>
+<header class="spa-header style-01">
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div style="height: 20px;">
         </div>
       </div>
     </div>
-    <div class="header-bottom">
-      <div class=".container-fluid">
-        <div class="row">
-          <div class="col-md-1 col-md-push-2 col-sm-3 col-xs-3">
-            <%= link_to (image_tag ('logo.jpg'), alt: 'Ukryty przycisk do panelu admina', title: 'Ukryty przycisk do panelu admina'), rails_admin_path %>
-          </div>
-            <div class="col-md-5 col-md-push-6 col-sm-7 col-xs-7 spa-algr">
-            <nav class="spa-menu-top">
-              <ul>
-                <li><%= link_to "Home", root_path %>
-                </li>
-                <li><%= link_to "Projekty", projects_path %>
-                </li>
-                <li><%= link_to "Kontakt", kontakt_path %>
-                </li>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-3 col-xs-3">
+          <%= link_to image_tag('logo.jpg', size: '50x50'), rails_admin_path %>
+        </div>
+        <div class="col-md-10 col-sm-9 col-xs-9 spa-algr" style="height: 100px;">
+          <nav class="spa-menu-top">
+            <ul>
+              <li>
+                <%= link_to "Home", root_path %>
+              </li>
+              <li>
+                <%= link_to "Projekty", projects_path %>
+              </li>
+              <li>
+                <%= link_to "Kontakt", kontakt_path %>
+              </li>
+              <li>
                 <% if user_signed_in? %>
-                    <li> <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
-                    </li>
+                  <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
                 <% end %>
-              </ul>
-            </nav>
+              </li>
+            </ul>
+          </nav>
+          <div class="spa-search-and-mega">
+            <i class="fa fa-align-justify spa-menu-responsive-header"></i>
+            <i class="fa fa-search spa-search-form-header"></i>
           </div>
         </div>
       </div>
     </div>
-  </header>
-</div>
-
-
+  </div>
+</header>

@@ -1,1 +1,0 @@
-<li><%= image_tag("logo.jpg", alt: "Logo firmy", style: ' float:left; width: 25%;') %>
