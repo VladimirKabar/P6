@@ -29,4 +29,3 @@ public/system/resources/*
 config/database.yml
 .ruby-version
 .ruby-gemset
-/app/assets/img/test/
