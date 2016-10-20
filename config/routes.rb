@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'static_pages#home'
   get 'kontakt' => 'static_pages#kontakt'
+  get 'test' => 'static_pages#test'
   resources :projects
   resources :resources
 
