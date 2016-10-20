@@ -8,4 +8,4 @@ $ ->
 
 onAfter = (curr, next, opts, fwd) ->
   $ht = $(this).height();
-$(this).parent().animate({height: $ht})
+  $(this).parent().animate({height: $ht})

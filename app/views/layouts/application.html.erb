@@ -4,29 +4,14 @@
   <title><%= full_title(yield(:title)) %></title>
 
   <%= stylesheet_link_tag 'application', media: 'all' %>
-  <%= stylesheet_link_tag 'style.css', media: 'all' %>
 
-
-  <%= javascript_include_tag 'js/jquery-1.12.0.min', media: 'all' %>
   <%= javascript_include_tag 'application' %>
-  <%= javascript_include_tag 'js/bootstrap.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/jquery.matchHeight-min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/owl.carousel.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/masonry.pkgd.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/imagesloaded.pkgd.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/superclick.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/superfish.min.js', media: 'all' %>
+  <%= javascript_include_tag 'saprol/imagesloaded.pkgd.min', media: 'all' %>
+  <%= javascript_include_tag 'saprol/custom', media: 'all' %>
   <%= javascript_include_tag 'http://maps.google.com/maps/api/js?sensor=true', media: 'all' %>
-  <%= javascript_include_tag 'js/gmaps', media: 'all' %>
-  <%= javascript_include_tag 'js/jquery.fitvids.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/slick.min.js', media: 'all' %>
-  <%= javascript_include_tag 'js/custom.js', media: 'all' %>
-  <%= javascript_include_tag 'jquery.browser', media: 'all' %>
-  <%= javascript_include_tag 'cycle.js', media: 'all' %>
-
-
-
-
+  <%= javascript_include_tag 'lib/gmaps', media: 'all' %>
+  <%= javascript_include_tag 'lib/jquery.browser', media: 'all' %>
+  <%= javascript_include_tag 'lib/cycle', media: 'all' %>
 
   <%= csrf_meta_tags %>
 </head>
