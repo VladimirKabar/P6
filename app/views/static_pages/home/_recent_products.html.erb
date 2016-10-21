@@ -12,14 +12,15 @@
               <div class="owl-carousel">
                 <% @projects.each do |p| %>
                     <article class="entry-item">
-                      <div class="entry-thumb spa-hover-effect-2">
-                        <div class="rotate" style="display:none;">
-                          <% p.resources.each do |r| %>
-                              <%= link_to((image_tag r.image.url), project_path(p)) %>
-                          <% end %>
-                          <span class="spa-sale">Otwórz</span>
-                        </div>
-                        <div class="entry-content woocommerce">
+                      <div class="entry-content woocommerce">
+                        <div class="entry-thumb spa-hover-effect-2">
+                          <div class="rotate" style="display:none;">
+                            <% p.resources.each do |r| %>
+                                <%= link_to((image_tag r.image.url), project_path(p)) %>
+                            <% end %>
+                            <span class="spa-sale">Otwórz</span>
+                          </div>
+
                           <div class="spa-wrap-line">
                             <h4 class="entry-title"><%= link_to p.title, project_path(p) %></h4>
                           </div>
