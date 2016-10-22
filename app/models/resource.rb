@@ -1,6 +1,6 @@
 class Resource < ApplicationRecord
   belongs_to :project
-  has_attached_file :image, :styles => {:small => '640x480>'},
+  has_attached_file :image, :styles => {:small => '370x280>'},
                     :region => 'us-east-1'
 
   validates_attachment_presence :image

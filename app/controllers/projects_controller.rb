@@ -45,7 +45,7 @@ class ProjectsController < ApplicationController
     redirect_to root_url
   end
 
-  def projects_implementation
+  def projects_realization
     @projects = Project.where(category: 'projekt')
   end
 

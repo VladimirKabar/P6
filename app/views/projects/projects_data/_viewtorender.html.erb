@@ -6,15 +6,18 @@
 </ol>
 <ul class="row spa-masonry">
   <% @projects.each do |p| %>
-      <% p.resources.each do |r| %>
-          <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val=<%= p.title %>>
-            <p data-val=<%= p.title %>>
-              <%= p.description %>
-            </p>
-            <h3 class="widget-title style-05"><%= p.title %></h3>
-            <%= image_tag r.image.url %>
-            <p><%= r.description %></p>
-          </li>
-      <% end %>
+      <li class="spa-item col-md-12 col-sm-12 col-xs-12" data-val=<%= p.title %>>
+        <h3 class="widget-title style-05"><%= p.title %></h3>
+        <p>
+          <%= p.description %>
+        </p>
+      </li>
+      <br>
+        <% p.resources.each do |r| %>
+            <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val=<%= p.title %>>
+              <%= image_tag r.image.url(:small) %>
+              <p><%= r.description %></p>
+            </li>
+        <% end %>
   <% end %>
 </ul>
