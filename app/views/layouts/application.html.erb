@@ -14,6 +14,7 @@
   <%= javascript_include_tag 'lib/cycle', media: 'all' %>
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--to wyzej do usuniecia -->
 
   <%= csrf_meta_tags %>
 </head>
@@ -22,10 +23,10 @@
   <%= render 'layouts/header' %>
   <div class="main-content">
     <% if notice %>
-        <p class="alert alert-success"><%= notice %></p>
+        <p class="alert alert-success fadeOut"><%= notice %></p>
     <% end %>
     <% if alert %>
-        <p class="alert alert-danger"><%= alert %></p>
+        <p class="alert alert-danger fadeOut"><%= alert %></p>
     <% end %>
     <%= yield %>
   </div>
