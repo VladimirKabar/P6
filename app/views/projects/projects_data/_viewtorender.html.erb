@@ -15,7 +15,7 @@
       <br>
         <% p.resources.each do |r| %>
             <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val=<%= p.title %>>
-              <%= image_tag r.image.url(:small) %>
+              <%= link_to(image_tag(r.image.url(:small)), r.image.url(:fullhd), :target => "_blank") %>
               <p><%= r.description %></p>
             </li>
         <% end %>
