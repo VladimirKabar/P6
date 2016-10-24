@@ -12,6 +12,5 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += [/^[-_a-zA-Z0-9]*\..*/]
 Rails.application.config.assets.precompile += ['*.js']
-# Rails.application.config.assets.precompile += ['*.css']
 Rails.application.config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.svg *.ico *.eot *.ttf)
 
