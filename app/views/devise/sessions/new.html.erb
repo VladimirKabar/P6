@@ -1,44 +1,36 @@
-<section class="spa-area spa-area-no-space" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-  <div class="widget spa-widget-owl-slide-home1">
-    <div class="owl-carousel spa-owl-slider">
-      <article class="entry-item">
-        <div class="entry-thumb">
-          <%= image_tag ('3.jpg') %>
-        </div>
-        <div class="entry-content">
-          <center>
-            <h2>Log in</h2>
-
+<section class="spa-area spa-area-17">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="widget spa-widget-portfolio">
+          <div class="widget-header style-08">
+            <span class="sub-title style-03">WizzART </span>
+            <h3 class="widget-title style-05">Logowanie do panelu Admina </h3>
+          </div>
+          <div class="widget-content">
             <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
                 <div class="field">
                   <%= f.label :email %><br/>
                   <%= f.email_field :email, autofocus: true %>
                 </div>
-
                 <div class="field">
                   <%= f.label :password %><br/>
                   <%= f.password_field :password, autocomplete: "off" %>
                 </div>
-
                 <% if devise_mapping.rememberable? -%>
                     <div class="field">
                       <%= f.check_box :remember_me %>
                       <%= f.label :remember_me %>
                     </div>
                 <% end -%>
-
                 <div class="actions">
-                  <%= f.submit "Log in" %>
+                  <%= f.submit "Zaloguj" %>
                 </div>
                 <!--render "devise/shared/links" %>-->
             <% end %>
-          </center>
-
-          </p>
+          </div>
         </div>
-      </article>
+      </div>
     </div>
   </div>
 </section>
-
-
