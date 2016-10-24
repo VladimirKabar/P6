@@ -1,0 +1,23 @@
+<ol class="filters-options clearfix">
+  <li class="active" data-val="*">Wszystkie</li>
+  <% @projects.each do |p| %>
+      <li data-val=<%= p.title %>><%= p.title %></li>
+  <% end %>
+</ol>
+<ul class="row spa-masonry">
+  <% @projects.each do |p| %>
+      <li class="spa-item col-md-12 col-sm-12 col-xs-12" data-val=<%= p.title %>>
+        <h3 class="widget-title style-05"><%= p.title %></h3>
+        <p>
+          <%= p.description %>
+        </p>
+      </li>
+      <br>
+        <% p.resources.each do |r| %>
+            <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val=<%= p.title %>>
+              <%= link_to(image_tag(r.image.url(:small)), r.image.url(:fullhd), :target => "_blank") %>
+              <p><%= r.description %></p>
+            </li>
+        <% end %>
+  <% end %>
+</ul>

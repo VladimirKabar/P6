@@ -45,6 +45,14 @@ class ProjectsController < ApplicationController
     redirect_to root_url
   end
 
+  def projects_realization
+    @projects = Project.where(category: 'projekt')
+  end
+
+  def projects_visualization
+    @projects = Project.where(category: 'wizualizacje')
+  end
+
   private
   def project_params
     params.require(:project).permit(:title)

@@ -23,11 +23,17 @@
                 <%= link_to "Projekty", projects_path %>
               </li>
               <li>
+                <%= link_to "Wizualizacje", visualizations_path %>
+              </li>
+              <li>
+                <%= link_to "Realizacje", realizations_path %>
+              </li>
+              <li>
                 <%= link_to "Kontakt", kontakt_path %>
               </li>
               <li>
                 <% if user_signed_in? %>
-                  <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
+                    <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
                 <% end %>
               </li>
             </ul>

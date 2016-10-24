@@ -13,6 +13,9 @@
   <%= javascript_include_tag 'lib/jquery.browser', media: 'all' %>
   <%= javascript_include_tag 'lib/cycle', media: 'all' %>
 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--to wyzej do usuniecia jak poprawisz czemu nie dziala font-awesome ze styleshet-->
+
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -20,10 +23,10 @@
   <%= render 'layouts/header' %>
   <div class="main-content">
     <% if notice %>
-        <p class="alert alert-success"><%= notice %></p>
+        <p class="alert alert-success fade-out"><%= notice %></p>
     <% end %>
     <% if alert %>
-        <p class="alert alert-danger"><%= alert %></p>
+        <p class="alert alert-danger fade-out"><%= alert %></p>
     <% end %>
     <%= yield %>
   </div>

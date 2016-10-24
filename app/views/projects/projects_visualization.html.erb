@@ -1,4 +1,4 @@
-<% provide(:title, "Projekty i wizualizacje") %>
+<% provide(:title, "Projekty : wizualizacje") %>
 
 <section class="spa-area spa-area-17">
   <div class="container">
@@ -7,7 +7,7 @@
         <div class="widget spa-widget-portfolio">
           <div class="widget-header style-08">
             <span class="sub-title style-03">WizzART </span>
-            <h3 class="widget-title style-05">Wizualizacje i projekty </h3>
+            <h3 class="widget-title style-05">Wizualizacje projektów </h3>
           </div>
           <div class="widget-content">
             <p>Szanowny Kliencie.
@@ -26,31 +26,15 @@
               <li>- wizualizacje przedmiotów</li>
               <li>- animacje</li>
             </ul>
-            <ul>Oferta projektowa:
-              <li>- projekty wnętrz</li>
-              <li>- projekty krajobrazu</li>
-            </ul>
-            <ol class="filters-options clearfix">
-              <li class="active" data-val="*">Wszystkie</li>
-              <li data-val="wizualizacje">Wizualizacje</li>
-              <li data-val="projekt">Projekty</li>
-            </ol>
-            <ul class="row spa-masonry">
-              <% @projects.each do |p| %>
-                  <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val= <%=p.category%> >
-                    <div class="rotate" style="display:none;">
-                      <% p.resources.each do |r| %>
-                          <%= link_to((image_tag r.image.url), project_path(p)) %>
-                      <% end %>
-                    </div>
-                    <p><%= p.title %></p>
-                  </li>
-              <% end %>
-            </ul>
+
+
+            <%= render 'projects/projects_data/viewtorender' %>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 
