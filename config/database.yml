@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: project_development
+  pool: 5
+  username: vladimir
+  password:
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: <%= ENV["HEROKU_POSTGRESQL_CYAN_URL"] %>
+  pool: 5
+  username:
+  password:
