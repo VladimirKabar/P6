@@ -18,7 +18,7 @@ margin:0 0 2em;
 position:relative;
 -webkit-border-radius:4px;
 -moz-border-radius:4px;
-border-radius:4px
+border-radius:4px;
 background:#fcfbfc;
 background:-webkit-gradient(linear,left top,left bottom,from(#fcfbfc),to(#f7f6f7));
 background:-webkit-linear-gradient(#fcfbfc,#f7f6f7);
@@ -35,7 +35,8 @@ clear:both;
 }
 
 .woocommerce-message:before,.woocommerce-error:before,.woocommerce-info:before{
-content:""height:1.5em;
+content:"";
+height:1.5em;
 width:1.5em;
 display:block;
 position:absolute;
@@ -888,7 +889,7 @@ font-size:0.83em;
 
 
 .woocommerce #reviews #comments .commentlist > li:before,.woocommerce-page #reviews #comments .commentlist > li:before {
-content:??;
+content: '';
 }
 
 .woocommerce .star-rating,.woocommerce-page .star-rating {
@@ -1669,8 +1670,6 @@ padding-left:0;
 list-style:none;
 margin-left:0;
 padding-left:1.5em;
-background:url(data:image/png;
-base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAQUlEQVQIHWP8//8/AwgwMjLWgxlQAijeCGIyIQtiYxNUwAjUhWI0uilMMLvQJUB8kBzYCmyKYGJwN8AEYDphJgIAPtccffZCsOoAAAAASUVORK5CYII=) left no-repeat;
 }
 
 .woocommerce ul.digital-downloads li .count,.woocommerce-page ul.digital-downloads li .count {
@@ -1806,7 +1805,6 @@ font-size:.7em;
 display:block;
 border:0;
 background:#ad74a2 url(data:image/png);
-base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC) top repeat-x;
 box-shadow:inset 0 0 0 1px rgba(0,0,0,0.5);
 -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.5);
 -moz-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.5);
