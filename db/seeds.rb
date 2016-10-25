@@ -19,16 +19,4 @@ p6 = Project.create!(title: "project_title_6", category: "wizualizacje", descrip
 p7 = Project.create!(title: "project_title_7", category: "wizualizacje", description: lorem)
 p8 = Project.create!(title: "project_title_8", category: "wizualizacje", description: lorem)
 
-x=0
-[p1, p2, p3, p4,p5,p6,p7,p8].each do |project|
-  4.times do |y|
-    title = "resource title #{y+1}"
-    description = "resource description #{y+1}"
-    Resource.create!(title: title,
-                     image: File.new(File.join(Rails.root, "/app/assets/test/#{x+y+1}.jpg")),
-                     description: description,
-                     project: project)
 
-  end
-  x += 1
-end
