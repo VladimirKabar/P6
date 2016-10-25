@@ -11,5 +11,5 @@ production:
   encoding: utf8
   database: <%= ENV["HEROKU_POSTGRESQL_CYAN_URL"] %>
   pool: 5
-  username:
-  password:
+  username: <%= ENV["HEROKU_POSTGRESQL_CYAN_USER"] %>
+  password: <%= ENV["HEROKU_POSTGRESQL_CYAN_PASSWORD"] %>
