@@ -8,20 +8,22 @@
 
 admin = User.create!(email: 'wizzart@gmail.com', password: 'haslo123')
 
-p1 = Project.create!(title: "Balkon", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p2 = Project.create!(title: "kuchnia", category: "projekt", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p3 = Project.create!(title: "lazienka", category: "projekt", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p4 = Project.create!(title: "dom", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p5 = Project.create!(title: "dom", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p6 = Project.create!(title: "dom", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p7 = Project.create!(title: "dom", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
-p8 = Project.create!(title: "dom", category: "wizualizacje", description: " I tak powstał bardzo długiiii i interesujucy opis tego wielkiego i wyjatkowego projektu albo w sumie czokapik")
+lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+
+p1 = Project.create!(title: "project_title_1", category: "projekt", description: lorem)
+p2 = Project.create!(title: "project_title_2", category: "projekt", description: lorem)
+p3 = Project.create!(title: "project_title_3", category: "projekt", description: lorem)
+p4 = Project.create!(title: "project_title_4", category: "projekt", description: lorem)
+p5 = Project.create!(title: "project_title_5", category: "wizualizacje", description: lorem)
+p6 = Project.create!(title: "project_title_6", category: "wizualizacje", description: lorem)
+p7 = Project.create!(title: "project_title_7", category: "wizualizacje", description: lorem)
+p8 = Project.create!(title: "project_title_8", category: "wizualizacje", description: lorem)
 
 x=0
 [p1, p2, p3, p4,p5,p6,p7,p8].each do |project|
   4.times do |y|
-    title = "jakis tam tytul #{y+1}"
-    description = "jakis tam opis #{y+1}"
+    title = "resource title #{y+1}"
+    description = "resource description #{y+1}"
     Resource.create!(title: title,
                      image: File.new(File.join(Rails.root, "/app/assets/test/#{x+y+1}.jpg")),
                      description: description,
