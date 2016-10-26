@@ -12,6 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require ./lib
-//= require ./saprol
 //= require_tree .
+//= require_tree ./lib
+//= require_tree ./saprol
