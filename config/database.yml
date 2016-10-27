@@ -1,9 +1,9 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: project_development
+  database: <%= ENV["LOCAL_DATABABASE"] %>
   pool: 5
-  username: vladimir
+  username: <%= ENV["LOCAL_USERNAME"] %>
   password:
 
 production:

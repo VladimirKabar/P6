@@ -29,3 +29,4 @@ public/system/resources/*
 
 .ruby-version
 .ruby-gemset
+/config/local_env.yml

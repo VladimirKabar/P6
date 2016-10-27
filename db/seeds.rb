@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-admin = User.create!(email: 'wizzart@gmail.com', password: 'haslo123')
+# admin = User.create!(email: 'wizzart@gmail.com', password: 'haslo123')
 
 lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
 
@@ -19,4 +19,14 @@ p6 = Project.create!(title: "project_title_6", category: "wizualizacje", descrip
 p7 = Project.create!(title: "project_title_7", category: "wizualizacje", description: lorem)
 p8 = Project.create!(title: "project_title_8", category: "wizualizacje", description: lorem)
 
+[p1, p2, p3, p4,p5,p6,p7,p8].each do |project|
+  4.times do |y|
+    title = "resource title #{y+1}"
+    description = lorem
+    Resource.create!(title: title,
+                     image: 'https://placehold.it/2500x1500',
+                     description: description,
+                     project: project)
 
+  end
+end
