@@ -7233,8 +7233,8 @@ span.spa-hexan:after {
 }
 
 .bottom-sidebar.style-01 {
-    background-image: url("footer_background.jpg");
-    background-size: cover;
+    background-image: asset_url('footer.jpg');
+    background-size: auto;
 }
 
 .bottom-sidebar.style-01 .custom-row-bottom {

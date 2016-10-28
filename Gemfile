@@ -17,7 +17,6 @@ gem 'rails_admin'
 gem 'pg'
 gem 'hirb'
 
-gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
@@ -35,7 +34,3 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :production do
-  gem 'rspec-rails', '~> 3.0'
-  gem 'rails_12factor'
-end

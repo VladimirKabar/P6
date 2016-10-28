@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: <%= ENV["LOCAL_DATABABASE"] %>
+  pool: 5
+  username: <%= ENV["LOCAL_USERNAME"] %>
+  password:
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: <%= ENV["HEROKU_POSTGRESQL_CYAN_URL"] %>
+  pool: 5
+  username: <%= ENV["HEROKU_POSTGRESQL_CYAN_USER"] %>
+  password: <%= ENV["HEROKU_POSTGRESQL_CYAN_PASSWORD"] %>

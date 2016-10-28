@@ -76,22 +76,19 @@ Rails.application.configure do
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
-    logger           = ActiveSupport::Logger.new(STDOUT)
-    logger.formatter = config.log_formatter
-    config.logger = ActiveSupport::TaggedLogging.new(logger)
-  end
-
   config.paperclip_defaults = {
       :storage => :s3,
       :s3_credentials => {
           :bucket => ENV['S3_BUCKET_NAME'],
           :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
           :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
-          :region => 'us-east-1',
+          :s3_region => 'us-east-1',
           :s3_host_name => 's3-eu-west-1.amazonaws.com'
       }
   }
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+
 end
