@@ -3,15 +3,10 @@ class StaticPagesController < ApplicationController
     @projects = Project.order(created_at: :desc).first(3)
   end
 
-  def firma
-  end
-
-  def projekty
+  def offer
   end
 
   def kontakt
   end
 
-  def test
-  end
 end
