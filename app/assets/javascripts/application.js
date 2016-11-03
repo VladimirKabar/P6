@@ -12,6 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require lib/gmaps_sensor
 //= require_tree .
 
