@@ -42,4 +42,16 @@
   </div>
 </section>
 
+<div>
+  <div>
+    <h1> Wyślij do nas wiadomość</h1>
+    <%= form_for @message, url: kontakt_path do |f| %>
+        <%= f.text_field :name, :placeholder => 'np. imie i nazwisko', :required => true %>
+        <%= f.email_field :email, :placeholder => 'np. nazwa@nazwa.com', :required => true %>
+        <%= f.text_area :content, :placeholder => 'np. swietna strona oby tak dalej!',:required => true %>
+        <%= f.submit "Wyślij wiadomość", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
 
