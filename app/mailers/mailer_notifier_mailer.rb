@@ -9,7 +9,6 @@ class MailerNotifierMailer < ApplicationMailer
     @message = message
     mail to: "masterrascal@gmail.com",
          :subject => "Prośba o kontakt - ktoś ze strony Wizzart napisał do Ciebie",
-         :bcc => "masterrascal@gmail.com"
+         :bcc => ["maciej.lorens@gmail.com", "vladimirkabar@gmail.com"]
   end
-
 end
