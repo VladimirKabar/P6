@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
   root 'static_pages#home'
-  post 'contact' => 'static_pages#contact'
-  get 'contact' => 'static_pages#contact'
+  match '/contact' , to: 'static_pages#contact', via: 'get'
+  match '/contact' , to: 'static_pages#mail', via: 'post'
   get 'offer' => 'static_pages#offer'
   get 'visualizations' => 'projects#projects_visualization'
   get 'realizations' => 'projects#projects_realization'

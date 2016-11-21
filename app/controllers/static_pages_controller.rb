@@ -6,11 +6,15 @@ class StaticPagesController < ApplicationController
   def offer
   end
 
+  def contact_get
+
+  end
   def contact
-    if params.present?
-      MailerNotifierMailer.mail_to_me(params[:email], params[:name], params[:content]).present?
-      redirect_to contact_path, notice: "Twoja wiadomość została wysłana"
-    end
+  end
+
+  def mail
+    MailerNotifierMailer.mail_to_me(params[:email], params[:name], params[:content]).deliver
+    redirect_to contact_path, notice: "Twoja wiadomość została wysłana"
   end
 
 end

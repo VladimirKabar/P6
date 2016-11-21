@@ -11,7 +11,7 @@
           </div>
           <div class="widget-content">
             <div class="spa-contact-form">
-              <%= form_for(:post, :url => url_for(:action => 'contact')) do |f| %>
+              <%= form_for(:post, :url => url_for(:action => 'mail')) do |f| %>
                   <p>
                     <%= f.text_field :name, :placeholder => 'np. Imie i Nazwisko', :required => true %>
                   </p>
