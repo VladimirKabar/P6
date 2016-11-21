@@ -11,20 +11,20 @@
           </div>
           <div class="widget-content">
             <div class="spa-contact-form">
-              <%= form_for(:post, :url => url_for(:action => 'mail')) do |f| %>
+              <%= form_tag('/contact') do %>
                   <p>
-                    <%= f.text_field :name, :placeholder => 'np. Imie i Nazwisko', :required => true %>
+                    <%= text_field_tag :name, '', :placeholder => 'np. Imie i Nazwisko', :required => true %>
                   </p>
                   <p>
-                    <%= f.email_field :email, :placeholder => 'np. email', :required => true %>
+                    <%= email_field_tag :email, '', :placeholder => 'np. email', :required => true %>
                   </p>
                   <p>
-                    <%= f.text_area :content, :placeholder => 'np. tresc', :required => true %>
+                    <%= text_area_tag :content, '', :placeholder => 'np. tresc', :required => true %>
                   </p>
 
                   <div class="spa-submit">
                     <p>
-                      <%= f.submit "Wyślij wiadomość" %>
+                      <%= submit_tag "Wyślij wiadomość" %>
                     </p>
                   </div>
               <% end %>
