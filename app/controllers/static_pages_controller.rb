@@ -6,9 +6,6 @@ class StaticPagesController < ApplicationController
   def offer
   end
 
-  def contact_get
-
-  end
   def contact
   end
 
