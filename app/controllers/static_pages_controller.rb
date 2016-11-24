@@ -6,28 +6,12 @@ class StaticPagesController < ApplicationController
   def offer
   end
 
-  def kontakt
-    @message = Message.new
+  def contact
   end
 
-  def new
-    @message = Message.new
-  end
-
-  def create
-    @message = Message.new(message_params)
-    if @message.valid?
-      MailerNotifierMailer.mail_to_me(@message).deliver
-      redirect_to kontakt_path, notice: "Twoja wiadomość została wysłana"
-    else
-      flash.now[:error] = "Wystąpił błąd spróbuj jeszcze raz"
-      render 'kontakt'
-    end
-  end
-
-  private
-  def message_params
-    params.require(:message).permit(:name, :email, :content)
+  def mail
+    MailerNotifierMailer.mail_to_me(params[:name],params[:email],params[:content]).deliver
+    redirect_to contact_path, notice: "Twoja wiadomość została wysłana"
   end
 
 end
