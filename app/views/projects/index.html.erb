@@ -31,20 +31,20 @@
               <li>- projekty krajobrazu</li>
             </ul>
             <ol class="filters-options clearfix">
-              <li class="active" data-val="*">Wszystkie</li>
-              <li data-val="wizualizacje">Wizualizacje</li>
-              <li data-val="projekt">Projekty</li>
+              <li class="active" data-val=<%= @category %>><%= @category %></li>
             </ol>
             <ul class="row spa-masonry">
               <% @projects.each do |p| %>
-                  <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val= <%=p.category%> >
-                    <div class="rotate" style="display:none;">
-                      <% p.resources.each do |r| %>
-                          <%= link_to((image_tag r.image.url), project_path(p)) %>
-                      <% end %>
-                    </div>
-                    <p><%= p.title %></p>
-                  </li>
+                  <% if @category == p.category %>
+                      <li class="spa-item col-md-3 col-sm-6 col-xs-6" data-val=<%= p.category %>>
+                        <div class="rotate" style="display:none;">
+                          <% p.resources.each do |r| %>
+                              <%= link_to((image_tag r.image.url), project_path(p)) %>
+                          <% end %>
+                        </div>
+                        <p><%= p.title %></p>
+                      </li>
+                  <% end %>
               <% end %>
             </ul>
           </div>

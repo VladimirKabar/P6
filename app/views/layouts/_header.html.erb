@@ -18,15 +18,37 @@
             <ul>
               <li>
                 <%= link_to "Strona główna", root_path %>
+
+              <li class="mdc-mega">
+                <a href="#">Projekty</a>
+                <div class="mdc-mega-menu sf-mega">
+                  <span class="spa-line-arow"></span>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="widget widget_nav_menu">
+                        <h3 class="widget-title style-02">
+                          Komercyjne
+                        </h3>
+                        <div class="widget-content">
+                          <%= link_to "Wewnętrzne", projects_path(:category => "indor_commercial")%>
+                          <%= link_to "Zewnętrzne", projects_path(:category => "outdor_commercial")%>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="widget widget_nav_menu">
+                        <h3 class="widget-title style-02">
+                          Prywatne
+                        </h3>
+                        <div class="widget-content">
+                          <%= link_to "Wewnętrzne", projects_path(:category => "indor_private")%>
+                          <%= link_to "Zewnętrzne", projects_path(:category => "outdor_private")%>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li>
-                <%= link_to "Projekty", projects_path %>
-              </li>
-              <li>
-                <%= link_to "Wizualizacje", visualizations_path %>
-              </li>
-              <li>
-                <%= link_to "Realizacje", realizations_path %>
               </li>
               <li>
                 <%= link_to "Oferta", offer_path %>

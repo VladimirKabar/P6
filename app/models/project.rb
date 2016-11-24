@@ -5,7 +5,7 @@ class Project < ApplicationRecord
   validates :category, :presence => true
 
   def category_enum
-    ['wizualizacje', 'projekt']
+    ['indor_commercial', 'indor_private','outdor_commercial','outdor_private']
   end
   
 end

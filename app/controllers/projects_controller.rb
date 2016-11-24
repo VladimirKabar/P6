@@ -3,6 +3,7 @@ class ProjectsController < ApplicationController
 
   def index
     @projects = Project.all
+    @category = params[:category]
   end
 
   def show
