@@ -1,12 +1,4 @@
 <header class="spa-header style-01">
-  <div class="header-top">
-    <div class="container">
-      <div class="row">
-        <div style="height: 15px;">
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="header-bottom">
     <div class="container">
       <div class="row">
@@ -24,25 +16,25 @@
                 <div class="mdc-mega-menu sf-mega">
                   <span class="spa-line-arow"></span>
                   <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                       <div class="widget widget_nav_menu">
                         <h3 class="widget-title style-02">
-                          Komercyjne
+                          Realizacje zewnętrzne
                         </h3>
                         <div class="widget-content">
-                          <%= link_to "Wewnętrzne", projects_path(:category => "indor_commercial")%>
-                          <%= link_to "Zewnętrzne", projects_path(:category => "outdor_commercial")%>
+                          <%= link_to "Komercyjne", projects_path(:category => "outdor_commercial"), :class => "fa fa-angle-double-right" %>
+                          <%= link_to "Prywatne", projects_path(:category => "outdor_private"), :class => "fa fa-angle-double-right"%>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                       <div class="widget widget_nav_menu">
                         <h3 class="widget-title style-02">
-                          Prywatne
+                          Projekty wewnętrzne
                         </h3>
                         <div class="widget-content">
-                          <%= link_to "Wewnętrzne", projects_path(:category => "indor_private")%>
-                          <%= link_to "Zewnętrzne", projects_path(:category => "outdor_private")%>
+                          <%= link_to "Komercyjne", projects_path(:category => "indor_commercial"), :class => "fa fa-angle-double-right"%>
+                          <%= link_to "Prywatne", projects_path(:category => "indor_private"), :class => "fa fa-angle-double-right"%>
                         </div>
                       </div>
                     </div>
@@ -67,14 +59,6 @@
             <i class="fa fa-align-justify spa-menu-responsive-header"></i>
             <i class="fa fa-search spa-search-form-header"></i>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="header-top">
-    <div class="container">
-      <div class="row">
-        <div style="height: 15px;">
         </div>
       </div>
     </div>

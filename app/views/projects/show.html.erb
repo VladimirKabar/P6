@@ -15,7 +15,6 @@
               <% @project.resources.each do |r| %>
                   <li class="spa-item col-md-6 col-sm-6 col-xs-6" >
                     <%= link_to(image_tag(r.image.url), r.image.url, :target => "_blank") %>
-                    <p><%= r.description %></p>
                   </li>
               <% end %>
             </ul>

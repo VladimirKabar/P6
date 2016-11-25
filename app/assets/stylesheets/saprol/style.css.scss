@@ -5776,7 +5776,7 @@ span.spa-hexan:after {
 
 .mdc-mega-menu.sf-mega {
   position: absolute;
-  width: 1170px;
+  width: 870px;
   display: none;
   z-index: 9999;
   background-color: #ffffff;
@@ -5784,9 +5784,9 @@ span.spa-hexan:after {
   text-align: left;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 870px) {
   .mdc-mega-menu.sf-mega {
-    width: 955px;
+    width: 755px;
   }
 }
 
