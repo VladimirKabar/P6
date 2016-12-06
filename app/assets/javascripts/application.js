@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require photoswipe
 //= require_tree .
+
 

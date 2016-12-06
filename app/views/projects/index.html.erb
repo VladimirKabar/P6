@@ -31,7 +31,11 @@
               <li>- projekty krajobrazu</li>
             </ul>
             <ol class="filters-options clearfix">
-              <li class="active" data-val=<%= @category %>><%= @category %></li>
+              <li class="active" data-val=<%= @category %>>Aktywna kategoria <%= @category %></li>
+              <li data-val="outdor_commercial"><%= link_to "Zewnetrzne Komercyjne", projects_path(:category => "outdor_commercial"), :onclick => 'alert("Please no!")' %>
+              <li data-val="outdor_private">outdor_private</li>
+              <li data-val="indor_commercial">indor_commercial</li>
+              <li data-val="indor_private">indor_private</li>
             </ol>
             <ul class="row spa-masonry">
               <% @projects.each do |p| %>
@@ -52,4 +56,7 @@
     </div>
   </div>
 </section>
+
+
+
 
