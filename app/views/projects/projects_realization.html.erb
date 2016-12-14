@@ -10,12 +10,21 @@
             <h3 class="widget-title style-05">Realizacje projektów </h3>
           </div>
           <div class="widget-content">
-            <%= render 'projects/projects_data/viewtorender' %>
+
+            <ol class="filters-options clearfix">
+              <li class="active" data-val="*">Wszystkie</li>
+              <% @projects.each do |p| %>
+                <li data-val=<%= p.title %>><%= p.title %></li>
+              <% end %>
+            </ol>
+            <ul class="row spa-masonry">
+              <%= hidden_field_tag :project_ids, @projects.map(&:id) %>
+              <%= render partial: 'photoswipe' %>
+              <%= render partial: 'project', collection: @projects %>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
