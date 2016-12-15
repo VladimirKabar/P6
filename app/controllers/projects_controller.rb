@@ -46,11 +46,11 @@ class ProjectsController < ApplicationController
   end
 
   def projects_realization
-    @projects = Project.where(category: 'projekt')
+    @projects = Project.all
   end
 
   def projects_visualization
-    @projects = Project.where(category: 'wizualizacje')
+    @projects = Project.all
   end
 
   private
