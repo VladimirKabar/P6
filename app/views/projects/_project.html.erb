@@ -1,0 +1,14 @@
+<li class="spa-item col-md-12" data-val=<%= project.title %>>
+  <h3 class="widget-title style-05"><%= project.title %></h3>
+  <p>
+    <%= project.description %>
+  </p>
+</li>
+<br>
+
+<% project.resources.each do |resource| %>
+  <li class="spa-item col-md-3 resource-item" data-project_id="<%= project.id %>" data-val=<%= project.title %>>
+    <%= image_tag(resource.image.url(:small), :'data-resource-url' => resource.image.url(:fullhd)) %>
+  </li>
+<% end %>
+
