@@ -13,18 +13,18 @@
             <div class="spa-contact-form">
               <%= form_tag('mail') do %>
                   <p>
-                    <%= text_field_tag :name, '', :placeholder => 'np. Imie i Nazwisko', :required => true %>
+                    <%= text_field_tag :name, '', :placeholder => 'Imię i nazwisko', required: true %>
                   </p>
                   <p>
-                    <%= email_field_tag :email, '', :placeholder => 'np. email', :required => true %>
+                    <%= email_field_tag :email, '', :placeholder => 'Email', required: true %>
                   </p>
                   <p>
-                    <%= text_area_tag :content, '', :placeholder => 'np. tresc', :required => true %>
+                    <%= text_area_tag :content, '', :placeholder => 'Treść wiadomości', required: true %>
                   </p>
 
                   <div class="spa-submit">
                     <p>
-                      <%= submit_tag "Wyślij wiadomość" %>
+                      <%= submit_tag 'Wyślij wiadomość' %>
                     </p>
                   </div>
               <% end %>
