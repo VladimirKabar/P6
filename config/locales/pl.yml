@@ -40,8 +40,8 @@ pl:
     actions:
       dashboard:
         title: "Strona administracyjna"
-        menu: "Kokpit"
-        breadcrumb: "Kokpit"
+        menu: "Panel Admina"
+        breadcrumb: "Panel Admina"
       index:
         title: "Wyświetl %{model_label_plural}"
         menu: "Wyświetl"
@@ -74,7 +74,7 @@ pl:
         title: "Usuń %{model_label_plural}"
         menu: "Usuń wiele"
         breadcrumb: "Usuń wiele"
-        bulk_link: "Usunięto zaznaczone %{model_label_plural}"
+        bulk_link: "Usunięcie zaznaczonych"
       export:
         title: "Eksportuj %{model_label}"
         menu: "Eksportuj"
@@ -125,3 +125,22 @@ pl:
         default_col_sep: ","
         col_sep: "Separator kolumny"
         col_sep_help: "Zostw puste dla domyślnej wartości ('%{value}')" # value is default_col_sep
+  activerecord:
+    models:
+      project: Projekt
+      projects: Projeky
+      resource: Zdjęcie
+      resources: Zdjęcia
+    attributes:
+      project:
+        title: "Tytuł"
+        description: "Opis"
+        category: "Kategoria"
+        resources: "Zdjęcia"
+        created_at: "Data utworzenia"
+        updated_at: "Data modyfikacji"
+      resource:
+        image: "Obraz"
+        project: "projekt"
+        created_at: "Data utworzenia"
+        updated_at: "Data modyfikacji"

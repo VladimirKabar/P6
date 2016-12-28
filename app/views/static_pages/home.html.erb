@@ -8,4 +8,24 @@
   </div>
 </div>
 
-<%= render partial: 'static_pages/home/recent_products' %>
+<section class="spa-area spa-area-01">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="widget spa-widget-list-product-intro">
+          <div class="widget-header">
+            <span class="sub-title">WizzART</span>
+            <h3 class="widget-title">Najnowsze projekty</h3>
+          </div>
+          <div class="widget-content">
+            <div class="spa-wrap-owl">
+              <div class="owl-carousel">
+                <%= render partial: 'project', collection: @projects %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
