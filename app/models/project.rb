@@ -5,7 +5,12 @@ class Project < ApplicationRecord
   validates :category, :presence => true
 
   def category_enum
-    ['wizualizacje', 'projekt']
+    [
+      ['zewnątrz komercyjnie', 'outdoor_commercial'],
+      ['zewnątrz prywatnie', 'outdoor_private'],
+      ['wewnątrz komercyjnie', 'indoor_commercial'],
+      ['wewnątrz prywatnie', 'indoor_private']
+    ]
   end
-  
+
 end

@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
-    @projects = Project.order(created_at: :desc).first(3)
+    @projects = Project.order(created_at: :desc).includes(:resources).first(3)
   end
 
   def offer
