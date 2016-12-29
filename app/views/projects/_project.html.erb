@@ -1,14 +1,18 @@
-<li class="spa-item col-md-12" data-val=<%= project.title %>>
-  <h3 class="widget-title style-05"><%= project.title %></h3>
-  <p>
-    <%= project.description %>
-  </p>
-</li>
-<br>
-
-<% project.resources.each do |resource| %>
-  <li class="spa-item col-md-3 resource-item" data-project_id="<%= project.id %>" data-val=<%= project.title %>>
-    <%= image_tag(resource.image.url(:small), :'data-resource-url' => resource.image.url(:fullhd)) %>
-  </li>
-<% end %>
-
+<div class="widget spa-widget-portfolio project-item <%= project.category.gsub('_', ' ') %> <%= 'hidden' unless project.category == params[:category] %>">
+  <div class="widget-header style-08">
+    <span class="sub-title style-03"><%= project_title(project) %></span>
+    <h3 class="widget-title style-05"><%= project.title %></h3>
+  </div>
+  <div class="widget-content">
+    <p>
+      <%= project.description %>
+    </p>
+    <ul class="row">
+      <% project.resources.each do |resource| %>
+        <li class="spa-item col-md-3 resource-item">
+          <%= image_tag(resource.image.url(:small), :'data-resource-url' => resource.image.url(:fullhd)) %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

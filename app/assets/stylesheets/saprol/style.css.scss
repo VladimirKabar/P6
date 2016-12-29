@@ -808,7 +808,7 @@ div.widget-content .custom-row-06 > li[class^=col] {
 }
 
 .entry-thumb .spa-sale.style-01 {
-  background-color: #e84610;
+  background-color: darkslategrey;
   text-transform: uppercase;
 }
 
@@ -1015,7 +1015,7 @@ div.widget-content .custom-row-06 > li[class^=col] {
 /*___________ 1.2.5 Default Widget        ___________*/
 .widget {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .widget:last-of-type {
@@ -1048,7 +1048,7 @@ div.widget-content .custom-row-06 > li[class^=col] {
 }
 
 .widget-title span {
-  color: #e84610;
+  color: darkslategrey;
 }
 
 .widget-title.style-01 {
@@ -2072,8 +2072,8 @@ div.widget-content .custom-row-06 > li[class^=col] {
 
 .filters-options li.active {
   color: #ffffff;
-  border-color: #e84610;
-  background-color: #e84610;
+  border-color: darkslategrey;
+  background-color: darkslategrey;
 }
 
 .spa-view-gridlist {
@@ -5410,7 +5410,7 @@ span.spa-hexan:after {
   background-color: #ffffff;
   margin: 0px;
   padding: 0px;
-  left: 35px;
+  left: 55px;
   display: none;
   border: 2px solid grey;
 }
@@ -5418,7 +5418,7 @@ span.spa-hexan:after {
 .spa-menu-top ul li ul li {
   list-style-type: none;
   position: relative;
-  min-width: 320px;
+  min-width: 160px;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -6119,7 +6119,7 @@ span.spa-hexan:after {
 }
 
 .spa-widget-owl-slide-home1 .entry-item.style-02 .entry-content span .spa-hl-text {
-  color: #e84610;
+  color: darkslategrey;
   font-weight: 700;
 }
 
@@ -6127,8 +6127,8 @@ span.spa-hexan:after {
   font-size: 120px;
   line-height: 125px;
   letter-spacing: 0.7px;
-  color: #794c1a;
-  background: -webkit-linear-gradient(#794c1a, rgba(255, 255, 255, 0.1));
+  color: #4d8181;
+  background: -webkit-linear-gradient(#4d8181, rgba(255, 255, 255, 0.1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
