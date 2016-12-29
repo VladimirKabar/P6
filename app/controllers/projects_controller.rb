@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   #before_filter :authenticate_admin!, only: [:edit, :create, :destroy,:update]
 
   def index
-    @projects = Project.includes(:resources).where(category: params[:category])
+    @projects = Project.includes(:resources)
   end
 
   def show

@@ -1,19 +1,42 @@
+<% provide(:title, 'Projekty') %>
+
+<%= content_for :page_title do %>
+  <section class="spa-area spa-area-11">
+    <h3 class="spa-breakrum-title">Projekty</h3>
+  </section>
+<% end %>
+
 <section class="spa-area spa-area-17">
   <div class="container">
     <div class="row">
+      <div class="col-sm-4">
+        <ol class="projects-filter indoor-outdoor">
+          <% outdoor_active = %w(outdoor_commercial outdoor_private).include? params[:category] %>
+          <li class="<%= outdoor_active ? 'active' : '' %>" data-category="outdoor">Zewnątrz</li>
+          <li class="<%= outdoor_active ? '' : 'active' %>" data-category="indoor">Wewnątrz</li>
+        </ol>
+      </div>
+
+      <div class="col-sm-4">
+        <ol class="projects-filter commercial-private">
+          <% commercial_active = %w(outdoor_commercial indoor_commercial).include? params[:category] %>
+          <li class="<%= commercial_active ? 'active' : '' %>" data-category="commercial">Komercyjne</li>
+          <li class="<%= commercial_active ? '' : 'active' %>"data-category="private">Prywatne</li>
+        </ol>
+      </div>
+
+      <div class="col-sm-4">
+        <ol class="resources-filter with-without-description">
+          <li class="active" data-category="with-description">Z opisami</li>
+          <li data-category="without-description">bez opisów</li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-12">
-        <div class="widget spa-widget-portfolio">
-          <div class="widget-header style-08">
-            <span class="sub-title style-03">WizzART</span>
-            <h3 class="widget-title style-05"><%= project_title %></h3>
-          </div>
-          <div class="widget-content">
-            <ul class="row spa-masonry">
-              <%= render partial: 'photoswipe' %>
-              <%= render partial: 'project', collection: @projects %>
-            </ul>
-          </div>
-        </div>
+
+        <%= render partial: 'photoswipe' %>
+        <%= render partial: 'project', collection: @projects %>
       </div>
     </div>
   </div>

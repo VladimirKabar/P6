@@ -16,6 +16,7 @@
 <body>
 <div class="main-container">
   <%= render 'layouts/header' %>
+  <%= yield  :page_title %>
   <div class="main-content">
     <% if notice %>
         <p class="alert alert-success fade-out"><%= notice %></p>
