@@ -260,7 +260,7 @@ ol {
   counter-reset: item;
   display: block;
   margin: 5px 0;
-  padding: 0 0 0 40px;
+  padding: 0 20px 0 20px;
 }
 
 ul {
@@ -4966,13 +4966,13 @@ span.spa-hexan:after {
 }
 
 .spa-header.style-01 .header-bottom img {
-  padding-top: 25px;
+  padding-top: 0px;
 }
 
 .spa-header.style-01 .header-bottom .spa-menu-top {
   position: relative;
-  top: 14px;
-  margin-right: -10px;
+  top: 6px;
+  margin-right: 25px;
 }
 
 .spa-header.style-01 .spa-menu-top {
@@ -5024,13 +5024,15 @@ span.spa-hexan:after {
 
   .spa-header.style-01 .header-bottom .spa-search-and-mega i {
     width: 50px;
+    font-size: 20px;
+    top: 17px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .spa-header.style-01 .header-bottom img {
-    width: 110px;
-    padding-top: 32px;
+    width: 60px;
+    padding-top: 0;
   }
 
   .spa-header.style-01 .header-bottom .spa-search-and-mega i {
@@ -5042,7 +5044,8 @@ span.spa-hexan:after {
   }
 
   .spa-header.style-01 .header-bottom .spa-search-and-mega i {
-    font-size: 16px;
+    font-size: 20px;
+    top: 19px;
   }
 }
 
@@ -5506,7 +5509,7 @@ span.spa-hexan:after {
   text-align: center;
   float: left;
   position: relative;
-  top: -10px;
+  top: 20px;
 }
 
 .spa-search-and-mega i:after {
@@ -5611,7 +5614,7 @@ span.spa-hexan:after {
 .spa-wrap-menu-responsive .spa-wrap {
   position: absolute;
   text-align: center;
-  top: 155px;
+  top: 100px;
   left: 50%;
 }
 
@@ -12454,7 +12457,7 @@ span.spa-hexan:after {
   }
 
   .spa-wrap-gototop {
-    bottom: 100px;
+    bottom: 78px;
   }
 
   .custom-row-01.style-01 > div {
@@ -12930,7 +12933,7 @@ span.spa-hexan:after {
   }
 
   .spa-wrap-gototop {
-    bottom: 150px;
+    bottom: 102px;
   }
 
   .spa-widget-thumb-bg-home-1 .widget-header.style-04 p {

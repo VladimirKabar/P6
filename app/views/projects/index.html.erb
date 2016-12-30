@@ -8,8 +8,8 @@
 
 <section class="spa-area spa-area-17">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="col-sm-4 center">
         <ol class="projects-filter indoor-outdoor">
           <% outdoor_active = %w(outdoor_commercial outdoor_private).include? params[:category] %>
           <li class="<%= outdoor_active ? 'active' : '' %>" data-category="outdoor">Zewnątrz</li>
@@ -17,7 +17,7 @@
         </ol>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4 center">
         <ol class="projects-filter commercial-private">
           <% commercial_active = %w(outdoor_commercial indoor_commercial).include? params[:category] %>
           <li class="<%= commercial_active ? 'active' : '' %>" data-category="commercial">Komercyjne</li>
@@ -25,10 +25,10 @@
         </ol>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4 center">
         <ol class="resources-filter with-without-description">
-          <li class="active" data-category="with-description">Z opisami</li>
-          <li data-category="without-description">bez opisów</li>
+          <li class="active" data-category="with-description">opisy wł.</li>
+          <li data-category="without-description">opisy wył.</li>
         </ol>
       </div>
     </div>

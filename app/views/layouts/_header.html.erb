@@ -1,19 +1,11 @@
 <header class="spa-header style-01">
-  <div class="header-top">
-    <div class="container">
-      <div class="row">
-        <div style="height: 4px;">
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="header-bottom">
     <div class="container">
       <div class="row">
         <div class="col-md-2 col-sm-3 col-xs-3">
-          <%= link_to image_tag('logo.jpg', size: '60x60', style: 'margin-top: -22px;'), root_path %>
+          <%= link_to image_tag('logo.jpg', size: '60x60'), root_path %>
         </div>
-        <div class="col-md-10 col-sm-9 col-xs-9 spa-algr" style="height: 70px;">
+        <div class="col-md-10 col-sm-9 col-xs-9 spa-algr">
           <nav class="spa-menu-top">
             <ul>
               <li>
@@ -56,10 +48,54 @@
           </nav>
           <div class="spa-search-and-mega">
             <i class="fa fa-align-justify spa-menu-responsive-header"></i>
-            <i class="fa fa-search spa-search-form-header"></i>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="spa-wrap-menu-responsive">
+    <div class="spa-wrap">
+      <nav class="spa-menu-responsive">
+        <ul>
+          <li>
+            <%= link_to "Strona główna", root_path %>
+          </li>
+          <li>
+            <%= link_to "Zewnątrz", projects_path(category: 'outdoor_commercial') %>
+            <ul>
+              <li>
+                <%= link_to "Komercyjne", projects_path(category: 'outdoor_commercial') %>
+              </li>
+              <li>
+                <%= link_to "Prywatne", projects_path(category: 'outdoor_private') %>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <%= link_to "Wewnątrz", projects_path(category: 'indoor_commercial') %>
+            <ul>
+              <li>
+                <%= link_to "Komercyjne", projects_path(category: 'indoor_commercial') %>
+              </li>
+              <li>
+                <%= link_to "Prywatne", projects_path(category: 'indoor_private') %>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <%= link_to "Oferta", offer_path %>
+          </li>
+          <li>
+            <%= link_to "Kontakt", contact_path %>
+          </li>
+          <li>
+            <% if user_signed_in? %>
+              <%= link_to("Wyloguj", destroy_user_session_path, :method => :delete) %>
+            <% end %>
+          </li>
+        </ul>
+      </nav>
+      <button class="spa-close-menu-responsive"><span>x</span>CLOSE</button>
     </div>
   </div>
 </header>

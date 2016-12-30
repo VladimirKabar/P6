@@ -42,7 +42,7 @@ jQuery(document).ready(function () {
     //back to top
     if (jQuery('.spa-wrap-gototop').length) {
         jQuery('.spa-wrap-gototop').on('click', function () {
-            jQuery("html, body").animate({scrollTop: 0}, "slow");
+            jQuery("html, body").animate({scrollTop: 0}, "fast");
         });
     }
     //slide pro custom
@@ -142,24 +142,24 @@ jQuery(document).ready(function () {
     });
     //mega menu
     jQuery('.spa-menu-responsive-header').on('click', function () {
-        jQuery('.spa-wrap-menu-responsive').css('height', '100%');
+        jQuery('.spa-wrap-menu-responsive').css('height', '650px');
     });
     jQuery('.spa-searcch-slide').on('click', function () {
-        jQuery('.spa-wrap-sarch-slider').css('height', '100%');
+        jQuery('.spa-wrap-sarch-slider').css('height', '650px');
     });
     jQuery('.spa-search-login').on('click', function () {
-        jQuery('.spa-wrap-login-slider').css('height', '100%');
+        jQuery('.spa-wrap-login-slider').css('height', '650px');
     });
     jQuery('.spa-close-menu-responsive').on('click', function () {
         jQuery('.spa-wrap-menu-responsive').css('height', '0px');
         jQuery('.spa-wrap-sarch-slider').css('height', '0px');
         jQuery('.spa-wrap-login-slider').css('height', '0px');
-        jQuery("html, body").animate({scrollTop: 0}, "slow");
+        jQuery("html, body").animate({scrollTop: 0}, "fast");
     });
     //
     jQuery('.spa-menu-responsive >ul').superclick({
         popUpSelector: 'ul,.sf-mega',
-        delay: 400,
+        delay: 0,
         animation: {opacity: 'show', height: 'show'},
         animationOut: {opacity: 'hide', height: 'hide'},
         speed: 'normal',
@@ -168,7 +168,7 @@ jQuery(document).ready(function () {
     //menu top
     jQuery('.spa-menu-top >ul').superfish({
         popUpSelector: 'ul,.sf-mega',
-        delay: 400,
+        delay: 0,
         animation: {opacity: 'show', height: 'show'},
         animationOut: {opacity: 'hide', height: 'hide'},
         speed: 'normal',
