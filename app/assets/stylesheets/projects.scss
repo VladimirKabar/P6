@@ -4,12 +4,12 @@
 
 .projects-filter, .resources-filter {
   display: inline-flex;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 
   li {
     list-style: none;
     margin: 10px;
-    padding: 6px 20px;
+    padding: 6px 12px;
     color: darkslategrey;
     font-weight: 700;
     border-radius: 8px;
@@ -25,4 +25,8 @@
 
 .hidden {
   display: none;
+}
+
+.center {
+  text-align: center;
 }
