@@ -43,13 +43,20 @@
 .widget ul, .widget ol {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 40px;
 }
 
 .widget ul li, .widget ol li {
   list-style: none;
   margin: 10;
   padding-bottom: 5px;
+}
+
+.widget ul.disc li, .widget ol.disc li {
+  list-style: none;
+  margin: 10px;
+  padding-bottom: 5px;
+  list-style-type: disc;
 }
 
 a:hover, a:focus, a.active, .text-hover, .widget-title.style-06 span, .widget-header.style-16 .sub-title span, .white-text-style .spa-widget-owl-2-home-1 .entry-title a:hover, .woocommerce .star-rating, .filters-options li:hover, .spa-menu-filter a:hover, .spa-menu-filter ul a:hover, .spa-meta-data a, .spa-gototop:hover i, .spa-wrap-meta-comment li a:hover, .page-numbers .page-numbers.current, .spa-multicolor h4, .spa-social-link a:hover, .spa-get-result span, .spa-meta-data-single li a:hover, .spa-meta-data-single li i, .spa-list-info-animation-car h4, .spa-list-li-bg span i, .spa-pagintor-1 .pagination a i, .spa-button.bt-style-1, .spa-button.bt-square:hover, .spa-button.has-icon-style-04, .spa-drop.style-02, .spa-list-item.style-01 i, .spa-list-item.style-03 i, .spa-icon-descript i, .spa-slider-click i:hover, .spa-list-car li.active i:before, .spa-tabstyle.style-03 .nav-tabs > li:hover, .spa-tabstyle.style-03 .nav-tabs > li > a:hover, .spa-tabstyle.style-03 .nav-tabs > li.active > a, .spa-header.style-01 .header-top .spa-location i, .spa-header.style-01 .header-top .spa-call i, .spa-header.style-01 .header-top .spa-wishlist i, .spa-header.style-01 .header-top .spa-login i, .spa-header.style-03 .spa-menu-top > ul > li > a:hover, .spa-search-and-mega i:hover, .spa-wrap-search-form > i:hover, .spa-wrap-menu-responsive > i, .spa-menu-responsive a:hover, .spa-wrap-social h4, .spa-socail.style-01 li a:hover, .spa-logo span, .spa-widget-owl-2-home-1 .entry-item.style-01 .entry-content p span, .spa-widget-owl-3-home-1 .owl-theme .owl-controls .owl-buttons div::before, .widget_nav_menu a:hover, .spa-widget-contact-bottom a:hover, .spa-widget-owl-home-2 .price span, .spa-widget-our-team .entry-title a:hover, .woocommerce .spa-widget-account-wooo .shop_table tbody td a:hover, .page-woocommerce .spa-widget-account-wooo .shop_table tbody td a:hover, .woocommerce .spa-widget-account-wooo .shop_table .order-actions .button:hover, .page-woocommerce .spa-widget-account-wooo .shop_table .order-actions .button:hover, .woocommerce .spa-widget-account-wooo .address a:hover, .page-woocommerce .spa-widget-account-wooo .address a:hover, .woocommerce .spa-widget-cart-wooo .shop_table .product-name a:hover, .page-woocommerce .spa-widget-cart-wooo .shop_table .product-name a:hover, .woocommerce .spa-widget-cart-wooo .shop_table input.button:hover, .page-woocommerce .spa-widget-cart-wooo .shop_table input.button:hover, .woocommerce .spa-widget-woocommer-single div.product .stock span, .page-woocommerce .spa-widget-woocommer-single div.product .stock span, .woocommerce ul.products ul li a:hover, .woocommerce ul.products a.button.alt:hover, .spa-send-mesasge button i, .spa-module-img-bg .entry-item .entry-title span {
@@ -5418,12 +5425,28 @@ span.spa-hexan:after {
   border: 2px solid grey;
 }
 
+.spa-menu-top ul li ul li ul {
+  top: -3px;
+}
+
+.spa-menu-top ul li ul li ul li {
+  min-width: 140px;
+
+  a {
+    padding: 0 10px
+  }
+}
+
 .spa-menu-top ul li ul li {
   list-style-type: none;
   position: relative;
-  min-width: 160px;
+  min-width: 170px;
   text-align: center;
   margin-bottom: 0px;
+
+  a {
+    padding: 0 10px;
+  }
 }
 
 .spa-menu-top ul li ul li:last-of-type a {
@@ -5464,7 +5487,7 @@ span.spa-hexan:after {
 
 .spa-menu-top ul li ul li ul {
   position: absolute;
-  left: 151%;
+  left: 142%;
   display: none;
 }
 
@@ -5614,7 +5637,7 @@ span.spa-hexan:after {
 .spa-wrap-menu-responsive .spa-wrap {
   position: absolute;
   text-align: center;
-  top: 100px;
+  top: 18px;
   left: 50%;
 }
 
@@ -5623,7 +5646,7 @@ span.spa-hexan:after {
 }
 
 .spa-wrap-menu-responsive .spa-close-menu-responsive {
-  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .spa-menu-responsive > ul > li:first-of-type:before {
@@ -5658,8 +5681,16 @@ span.spa-hexan:after {
   -ms-transform: skewX(-40deg);
 }
 
-.spa-menu-responsive > ul > li ul a {
-  font-size: 15px;
+.spa-menu-responsive > ul > a {
+  font-size: 18px;
+}
+
+.spa-menu-responsive > ul > li > ul a {
+  font-size: 14px;
+}
+
+.spa-menu-responsive > ul > li > ul > li > ul a {
+  font-size: 12px;
 }
 
 .spa-menu-responsive ul {
@@ -5673,7 +5704,7 @@ span.spa-hexan:after {
   margin-bottom: 0px;
   display: inherit;
   position: relative;
-  border-bottom: 1px solid #e4e4e4;
+  border: 1px solid #e4e4e4;
   text-align: center;
   overflow: hidden;
 }
@@ -7229,11 +7260,11 @@ span.spa-hexan:after {
 *-------------------------------------------------------------------------------
 */
 .bottom-sidebar .widget {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .bottom-sidebar .widget-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .bottom-sidebar.style-01 {
@@ -7434,10 +7465,13 @@ span.spa-hexan:after {
 .widget_nav_menu a {
   font-size: 15px;
   line-height: 30px;
-  color: #9a9a9a;
-  font-size: 15px;
-  line-height: 30px;
+  color: #ffc200;
   font-family: "Roboto", sans-serif;
+
+  .fa {
+    margin-right: 10px;
+    width: 15px;
+  }
 }
 
 .widget_nav_menu a:before {

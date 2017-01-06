@@ -1,4 +1,10 @@
 pl:
+  indoor_private: 'wnętrza - prywatne'
+  indoor_commercial: 'wnętrza - komercyjne'
+  green_area: 'teren zielony'
+  building: 'budynek'
+
+
   admin:
     home:
       name: Strona główna

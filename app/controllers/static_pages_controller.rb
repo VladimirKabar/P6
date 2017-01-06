@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
     @projects = Project.order(created_at: :desc).includes(:resources).first(3)
   end
 
-  def offer
+  def about
   end
 
   def contact

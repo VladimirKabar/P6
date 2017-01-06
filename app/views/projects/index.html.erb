@@ -9,32 +9,8 @@
 <section class="spa-area spa-area-17">
   <div class="container">
     <div class="row" style="margin-bottom: 20px;">
-      <div class="col-sm-4 center">
-        <ol class="projects-filter indoor-outdoor">
-          <% outdoor_active = %w(outdoor_commercial outdoor_private).include? params[:category] %>
-          <li class="<%= outdoor_active ? 'active' : '' %>" data-category="outdoor">Zewnątrz</li>
-          <li class="<%= outdoor_active ? '' : 'active' %>" data-category="indoor">Wewnątrz</li>
-        </ol>
-      </div>
-
-      <div class="col-sm-4 center">
-        <ol class="projects-filter commercial-private">
-          <% commercial_active = %w(outdoor_commercial indoor_commercial).include? params[:category] %>
-          <li class="<%= commercial_active ? 'active' : '' %>" data-category="commercial">Komercyjne</li>
-          <li class="<%= commercial_active ? '' : 'active' %>"data-category="private">Prywatne</li>
-        </ol>
-      </div>
-
-      <div class="col-sm-4 center">
-        <ol class="resources-filter with-without-description">
-          <li class="active" data-category="with-description">opisy wł.</li>
-          <li data-category="without-description">opisy wył.</li>
-        </ol>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
-
         <%= render partial: 'photoswipe' %>
         <%= render partial: 'project', collection: @projects %>
       </div>
