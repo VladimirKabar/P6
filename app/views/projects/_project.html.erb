@@ -1,13 +1,13 @@
-<div class="widget spa-widget-portfolio project-item <%= project.category.gsub('_', ' ') %> <%= 'hidden' unless project.category == params[:category] %>">
+<div class="widget spa-widget-portfolio project-item <%= project.category.gsub('_', ' ') %>">
   <div class="widget-header style-08">
-    <span class="sub-title style-03"><%= project_title(project) %></span>
+    <span class="sub-title style-03"><%= t(project.category) %></span>
     <h3 class="widget-title style-05"><%= project.title %></h3>
   </div>
   <div class="widget-content">
     <p>
       <%= project.description %>
     </p>
-    <ul class="row">
+    <ul class="row" style="margin: 0">
       <% project.resources.each do |resource| %>
         <li class="spa-item col-md-3 resource-item">
           <%= image_tag(resource.image.url(:small), :'data-resource-url' => resource.image.url(:fullhd)) %>

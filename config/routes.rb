@@ -2,12 +2,13 @@ Rails.application.routes.draw do
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
+
   root 'static_pages#home'
+
   match 'contact' , to: 'static_pages#contact', via: 'get'
   match 'mail' , to: 'static_pages#mail', via: 'post'
-  get 'offer' => 'static_pages#offer'
-  get 'visualizations' => 'projects#projects_visualization'
-  get 'realizations' => 'projects#projects_realization'
+
+  get 'about' => 'static_pages#about'
 
   resources :projects
   resources :resources
