@@ -2444,13 +2444,19 @@ div.widget-content .custom-row-06 > li[class^=col] {
 }
 
 .spa-breakrum-title {
-  font-size: 25px;
-  line-height: 28px;
+  position: absolute;
+  left: calc(50% - 70px);
+  top: 125px;
+  margin: auto;
+  font-size: 36px;
+  line-height: 36px;
   color: #ffffff;
-  margin: 0px;
   text-align: center;
   font-weight: 400;
   text-transform: inherit;
+  z-index: 10;
+  background-color: black;
+  padding: 15px 20px;
 }
 
 .spa-module-breacrumb {
@@ -6485,7 +6491,7 @@ span.spa-hexan:after {
 .spa-widget-list-product-intro .entry-content {
   background-color: #ffffff;
   padding: 20px 35px;
-  padding-bottom: 50px;
+  min-height: 180px;
 }
 
 .spa-widget-thumb-bg-home-1 {

@@ -1,9 +1,13 @@
 <% provide(:title, 'Projekty') %>
 
 <%= content_for :page_title do %>
-  <section class="spa-area spa-area-11">
-    <h3 class="spa-breakrum-title">Projekty</h3>
-  </section>
+  <h3 class="spa-breakrum-title">Projekty</h3>
+
+  <div id="content">
+    <div class="rotate" style="display:none;">
+      <%= image_tag('projects.jpg', class: 'rest-image') %>
+    </div>
+  </div>
 <% end %>
 
 <section class="spa-area spa-area-17">
