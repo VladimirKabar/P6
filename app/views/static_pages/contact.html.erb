@@ -10,19 +10,20 @@
   </div>
 <% end %>
 
-<section class="spa-area white-text-style spa-area-15">
+<section class="spa-area spa-area-17">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-push-3">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="row">
+        <div class="col-md-6 col-md-push-3">
 
-        <div class="widget spa-widget-contact-form">
-          <div class="widget-header style-12">
-            <span class="sub-title style-03">Wyślij wiadomość </span>
-            <h3 class="widget-title style-09">Formularz kontaktowy</h3>
-          </div>
-          <div class="widget-content">
-            <div class="spa-contact-form">
-              <%= form_tag('mail') do %>
+          <div class="widget spa-widget-contact-form">
+            <div class="widget-header style-12">
+              <span class="sub-title style-03">Wyślij wiadomość </span>
+              <h3 class="widget-title style-09">Formularz kontaktowy</h3>
+            </div>
+            <div class="widget-content">
+              <div class="spa-contact-form">
+                <%= form_tag('mail') do %>
                   <p>
                     <%= text_field_tag :name, '', :placeholder => 'Imię i nazwisko', required: true %>
                   </p>
@@ -38,11 +39,10 @@
                       <%= submit_tag 'Wyślij wiadomość' %>
                     </p>
                   </div>
-              <% end %>
+                <% end %>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
-  </div>
 </section>
