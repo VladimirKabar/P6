@@ -10,10 +10,8 @@ Rails.application.routes.draw do
 
   get 'about' => 'static_pages#about'
 
-  resources :projects
-  resources :resources
+  resources :projects, only: [:index]
 
   get '*path' => redirect('/')
 
 end
-

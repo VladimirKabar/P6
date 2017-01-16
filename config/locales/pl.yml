@@ -145,6 +145,7 @@ pl:
         resources: "Zdjęcia"
         created_at: "Data utworzenia"
         updated_at: "Data modyfikacji"
+        show_on_home: "Pokaż na głównej"
       resource:
         image: "Obraz"
         project: "projekt"

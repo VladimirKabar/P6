@@ -1,15 +1,18 @@
-<article class="entry-item">
-  <div class="entry-thumb spa-hover-effect-2">
-    <%= link_to((image_tag project.resources.first.image.url, style: 'height: 280px; width: 370px;'), project_path(project)) %>
-    <div class="spa-wrap-thumb-add-feature">
+<a href="/projects?category=all">
+  <article class="entry-item">
+    <div class="entry-thumb spa-hover-effect-2">
+      <%= image_tag project.resources.first.image.url(:small) %>
+      <div class="spa-wrap-thumb-add-feature">
+      </div>
+      <span class="spa-sale"><%= project.title %></span>
     </div>
-    <span class="spa-sale"><%= project.title %></span>
-  </div>
-  <div class="entry-content woocommerce">
-    <div class="spa-wrap-thumb-add-feature">
+    <div class="entry-content woocommerce">
+      <div class="spa-wrap-thumb-add-feature">
+      </div>
+      <p>
+        <%= project.description %>
+      </p>
     </div>
-    <p>
-      <%= project.description %>
-    </p>
-  </div>
-</article>
+  </article>
+
+</a>

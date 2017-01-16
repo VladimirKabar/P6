@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
-    @projects = Project.order(created_at: :desc).includes(:resources).first(3)
+    @projects = Project.where(show_on_home: true).order(created_at: :desc).includes(:resources).first(3)
   end
 
   def about

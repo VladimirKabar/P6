@@ -39,4 +39,10 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'Project' do
+    list do
+      exclude_fields :created_at, :updated_at
+    end
+  end
 end

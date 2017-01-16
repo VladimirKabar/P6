@@ -153,3 +153,7 @@
   /* IE 10+ */
   color: #fff;
 }
+
+nav ul li.active > a {
+  color: #ffc800;
+}
