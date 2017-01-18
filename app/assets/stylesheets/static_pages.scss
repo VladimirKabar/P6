@@ -29,6 +29,20 @@
   top: 170px;
 }
 
+.sentence {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+
+  span {
+    display: block;
+  }
+
+  .author {
+    margin-left: 216px;
+  }
+}
+
 @media screen and (max-width: 1920px) {
   .main-image {
     height: 700px;
@@ -40,6 +54,10 @@
 
   .spa-breakrum-title {
     top: 170px;
+  }
+
+  .sentence .author {
+    margin-left: 215px;
   }
 }
 
@@ -110,6 +128,10 @@
 
   .spa-breakrum-title {
     top: 95px;
+  }
+
+  .sentence .author {
+    margin-left: 150px;
   }
 }
 
