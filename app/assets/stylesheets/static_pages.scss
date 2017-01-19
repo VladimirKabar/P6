@@ -135,6 +135,12 @@
   }
 }
 
+@media screen and (max-width: 340px) {
+  .spa-wrap-gototop {
+    bottom: 102px;
+  }
+}
+
 .spa-contact-form input {
   width: 100%;
   font-size: 16px;
