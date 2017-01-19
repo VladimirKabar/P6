@@ -10,7 +10,7 @@ class StaticPagesController < ApplicationController
   end
 
   def mail
-    MailerNotifierMailer.mail_to_me(params[:name],params[:email],params[:content]).deliver
+    MailerNotifierMailer.mail_to_me(params[:name], params[:email], params[:content]).deliver
     redirect_to contact_path, notice: "Twoja wiadomość została wysłana"
   end
 

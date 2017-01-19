@@ -12,13 +12,13 @@
           <div class="widget-content">
             <ul class="menu">
               <li>
-                <%= link_to 'Facebook', 'https://www.facebook.com/Wizzart-Architektura-1191225920953207/?skip_nax_wizard=true' %>
+                <%= link_to 'Facebook', 'https://www.facebook.com/Wizzart-Architektura-1191225920953207/?skip_nax_wizard=true', class: 'fa fa-angle-double-right' %>
               </li>
               <li>
-                <%= link_to 'Instagram', 'https://www.instagram.com/wizzart_architektura/' %>
+                <%= link_to 'Instagram', 'https://www.instagram.com/wizzart_architektura/', class: 'fa fa-angle-double-right' %>
               </li>
               <li>
-                <%= link_to 'LinkedIn', 'https://pl.linkedin.com/in/aleksander-śliwiński-66324486/en' %>
+                <%= link_to 'LinkedIn', 'https://pl.linkedin.com/in/aleksander-śliwiński-66324486/en', class: 'fa fa-angle-double-right' %>
               </li>
             </ul>
           </div>
@@ -51,7 +51,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <span class="spa-copyright">Copyright <span>NeverTrustRobots</span> 2016 Made by <%= mail_to 'vladimirkabar@gmail.com', 'Vladimir Kabar', subject: 'Zapytanie o stronę' %>
+        <span class="spa-copyright">
+          Copyright © <%= Time.now.year %> Made by <%= mail_to 'vladimirkabar@gmail.com', 'Vladimir Kabar', subject: 'Zapytanie o stronę' %>
         </span>
       </div>
     </div>
